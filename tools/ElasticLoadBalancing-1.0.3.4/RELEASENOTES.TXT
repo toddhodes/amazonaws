@@ -1,0 +1,27 @@
+Elastic Load Balancing Command Line Tools
+=========================================
+
+Elastic Load Balancing CLI version 1.0.3.4 (API 2009-05-15)
+=========================================================
+* Minor fixes
+
+Elastic Load Balancing CLI version 1.0-1 (API 2009-05-15)
+=========================================================
+
+Config changes
+--------------
+* Rename ELB_HOME -> AWS_ELB_HOME
+* Rename ELB_URL  -> AWS_ELB_URL
+
+Command changes
+---------------
+* Rename bin/service[.cmd] -> elb-cmd[.cmd]
+* Rename --accesskeyid -> --access-key-id
+* Rename --secretkey   -> --secret-key
+* Remove bin/elb
+* Change permissions for bin/* from 544 to 555
+
+
+Elastic Load Balancing CLI version 1.0 (API 2009-05-15)
+=======================================================
+

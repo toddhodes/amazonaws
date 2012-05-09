@@ -1,0 +1,8 @@
+com.xerox.amazonws.common
+com.xerox.amazonws.devpay
+com.xerox.amazonws.ec2
+com.xerox.amazonws.fps
+com.xerox.amazonws.monitoring
+com.xerox.amazonws.sdb
+com.xerox.amazonws.sqs
+com.xerox.amazonws.sqs2

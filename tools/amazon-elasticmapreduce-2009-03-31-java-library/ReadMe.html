@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <title>AmazonElasticMapReduce Java Library</title>
+        <style type="text/css">
+            body, div, p, td, th {
+                font-family : helvetica,sans-serif, arial;
+                font-size : 12px;
+                color : #000000;
+            }
+
+            .aws-h1, h1{
+                font-family: verdana, arial, helvetica, sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                color: #000000;
+            }
+            .aws-h2, h2{
+                font-family: verdana, arial, helvetica, sans-serif;
+                font-size: 14px;
+                color: #c60;
+            }
+            .aws-h3, h3{
+                font-family: verdana, arial, helvetica, sans-serif;
+                font-size: 12px;
+                font-weight: bold;
+                color: #333333;
+            }
+
+            /*table ID selector styles*/
+            #aws-table {
+                border-top: 1px solid #cccccc;
+                border-left: 1px solid #cccccc;
+                width:95%;
+            }
+
+            #aws-table td{
+                font-size: 12px;
+                padding: 5px 5px 5px 5px;
+                border-bottom: 1px solid #cccccc;
+                border-right: 1px solid #cccccc;
+                vertical-align:top;
+            }
+
+            #aws-table th {
+                font-size: 12px;
+                padding: 5px 5px 5px 5px;
+                border-bottom: 1px solid #cccccc;
+                border-right: 1px solid #cccccc;
+                vertical-align:top;
+                background-color: #eeeeee;
+                color: #333333;
+                font-size: 12px;
+                font-weight: bold;
+                text-align: left;
+            }
+
+            /*code, note, and example styles*/
+            pre {
+                font-family: "Courier New", Courier, mono;
+                font-size: 12px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                color: #000066;
+                padding: 5px;
+                background-color: #eff7ff;
+                border: 1px dashed #333;
+                width:75%;
+                display:block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>About this Library</h2>
+        <ul><li>Based on the 2009-03-31 API version.</li></ul>
+
+        <h2>What&#39;s New?</h2>
+        <ul>
+            <li><b>2009-04-21</b>:
+                <ul>
+                    <li>Initial release</li>
+                </ul>
+            </li>
+
+        </ul>
+
+        <h2>Prerequisites</h2>
+
+        <ul>
+            <li>Amazon Elastic MapReduce account (<a href="http://aws.amazon.com/elasticmapreduce">http://aws.amazon.com/elasticmapreduce</a>).</li>
+            <li>Java 1.5 (<a href="http://java.sun.com/">http://java.sun.com/</a>)</li> to compile sources.
+        </ul>
+
+        <h2>Reference Documentation</h2>
+        <ul>
+            <li><a href="http://s3.amazonaws.com/awscode/amazon-elasticmapreduce/2009-03-31/java/library/doc/index.html">Online Java Docs</a></li>
+        </ul>
+
+        <h2>Package Content</h2>
+
+        <table id="aws-table">
+
+            <tbody>
+                <tr>
+                    <th>Path</th>
+                    <th>Overview</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        lib
+                    </td>
+                    <td>
+                        Binary distribution of library
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        src
+                    </td>
+                    <td>
+                        Source distribution of library.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        third-party
+                    </td>
+                    <td>
+                        Binary distribution of library dependencies.
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        build.xml
+                    </td>
+                    <td>
+                        Ant build file to build the library
+                    </td>
+
+                </tr>
+            </tbody>
+
+        </table>
+
+
+        <h2>Quick Start</h2>
+
+        Library comes with code samples for each available service API.
+        To get started with the library, follow these steps:
+        <ol>
+            <li>Extract the <strong>amazon-elasticmapreduce-2009-03-31-java-library.zip</strong> file into a working directory.</li>
+            <li>Add all sources under <strong>"src"</strong> directory to your compilation path.</li>
+            <li>Add all jars files under <strong>"third-party/*"</strong> directory to your classpath. <b>NOTE</b>: if you are using  JDK 1.6, do not add jaxb jars</li>
+            <li>Edit desired sample. For example: <a href="http://s3.amazonaws.com/awscode/amazon-elasticmapreduce/2009-03-31/java/library/doc/src-html/com/amazonaws/elasticmapreduce/samples/DescribeJobFlowsSample.html">DescribeJobFlowsSample.java</a></li>
+            <br/>
+            <br/>
+
+            <ul>
+                <li>Set AWS Access Key ID and AWS Secret Access Key</li>
+                <pre>
+String accessKeyId = "Your Access Key ID";
+String secretAccessKey = "Your Secret Access Key";
+                </pre>
+            </ul>
+            <br/>
+            <br/>
+            <ul>
+                <li>Set request parameters. For example, find following pre-generated snippet:</li>
+                <pre>
+DescribeJobFlowsRequest request = new DescribeJobFlowsRequest();
+// @TODO: set request parameters here
+// invokeDescribeJobFlows(service, request);
+                </pre>
+            </ul>
+            <br/>
+            <br/>
+            <ul>
+                <li>And uncomment third line:</li>
+
+                <pre>
+DescribeJobFlowsRequest request = new DescribeJobFlowsRequest();
+invokeDescribeJobFlows(service, request);
+                </pre>
+
+            </ul>
+            <br/>
+            <li>Compile and run DescribeJobFlows. You should see the output
+            similar to the following:</li>
+            <br/>
+            <br/>
+            <pre>
+    DescribeJobFlowsResponse
+        ResponseMetadata
+            RequestId
+                95cdcb68-f46c-400b-8265-8c2de2a5c475
+            </pre>
+            <br/>
+            <div><em>Note, you may also see additional debugging output. To adjust level of debugging, modify <strong>log4j.properties</strong> available in the root of the source tree.</em></div>
+            <br/>
+            <li>Experiment with samples. When ready, add library binary distribution to your application classpath, and use it. <p/></li>
+        </ol>
+
+
+        <p/>
+        <h2>Comments, Questions or Feedback</h2>
+
+        If you have any comments, questions or feedback on the library, please post it here.
+
+    </body>
+</html>

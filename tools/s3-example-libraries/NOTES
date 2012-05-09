@@ -1,0 +1,57 @@
+
+the below is from
+http://developer.amazonwebservices.com/connect/thread.jspa?threadID=21412
+---
+
+1. Edit both S3Driver.java and S3Test.java to use your access ID key and secret key. 
+2. Compile with find . -name "*.java"| xargs javac -d . 
+3. Run tests with 
+  java -cp . S3Test 
+and then run the example with 
+  java -cp . S3Drive
+
+
+Calling just awsAuthConnection.delete(fooBucket, fooObject, null) will probably not delete your object, but awsAuthConnection.delete(fooBucket, fooObject, null).connection.getResponseMessage() will.
+
+
+problem with connections not closing in the event of a file not found --
+ fix by slurping the input stream from the 400+ status code response:
+
+   public GetResponse(HttpURLConnection connection) throws IOException {
+        super(connection);
+        if (connection.getResponseCode() < 400) {
+            Map metadata = extractMetadata(connection);
+            byte[] body = slurpInputStream(connection.getInputStream());
+            this.object = new S3Object(body, metadata);
+        } else {
+            byte[] errBody = slurpInputStream(connection.getErrorStream());
+        }
+    } 
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project name='AWS S3 Groovy Console' basedir='.' default='console'>
+ 	
+ 	<property environment='env' />
+ 	
+ 	<target name='build'>
+		<mkdir dir="target/classes" />
+	  	
+	 	<javac srcdir="java" destdir='target/classes' target='1.5' />
+	 	
+	 	<jar basedir='target/classes' destfile='target/aws-s3.jar' />
+ 	</target>
+
+	<target name='console' depends='build'>
+	
+		<path id='cp'>
+			<pathelement path='target/aws-s3.jar' />
+			<pathelement path='${env.GROOVY_HOME}/lib/groovy-all-1.5.6.jar' />
+		</path>
+		
+		<java classpathref='cp' classname='groovy.ui.Console' fork='true' />
+	</target>  
+</project>
+
+

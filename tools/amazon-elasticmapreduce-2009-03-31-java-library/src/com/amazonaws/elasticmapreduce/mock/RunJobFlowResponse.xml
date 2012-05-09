@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RunJobFlowResponse xmlns="http://elasticmapreduce.amazonaws.com/doc/2009-03-31">
+  <RunJobFlowResult>
+    <!--Optional:-->
+    <JobFlowId>string</JobFlowId>
+  </RunJobFlowResult>
+  <ResponseMetadata>
+    <RequestId>string</RequestId>
+  </ResponseMetadata>
+</RunJobFlowResponse>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DescribeJobFlowsResponse xmlns="http://elasticmapreduce.amazonaws.com/doc/2009-03-31">
+  <DescribeJobFlowsResult>
+    <!--1 or more repetitions:-->
+    <JobFlows>
+      <JobFlowId>string</JobFlowId>
+      <Name>string</Name>
+      <!--Optional:-->
+      <LogUri>string</LogUri>
+      <ExecutionStatusDetail>
+        <State>string</State>
+        <CreationDateTime>string</CreationDateTime>
+        <!--Optional:-->
+        <StartDateTime>string</StartDateTime>
+        <!--Optional:-->
+        <EndDateTime>string</EndDateTime>
+        <!--Optional:-->
+        <LastStateChangeReason>string</LastStateChangeReason>
+      </ExecutionStatusDetail>
+      <Instances>
+        <MasterInstanceType>string</MasterInstanceType>
+        <!--Optional:-->
+        <MasterPublicDnsName>string</MasterPublicDnsName>
+        <!--Optional:-->
+        <MasterInstanceId>string</MasterInstanceId>
+        <SlaveInstanceType>string</SlaveInstanceType>
+        <InstanceCount>100</InstanceCount>
+        <!--Optional:-->
+        <Ec2KeyName>string</Ec2KeyName>
+        <!--Optional:-->
+        <Placement>
+          <AvailabilityZone>string</AvailabilityZone>
+        </Placement>
+        <!--Optional:-->
+        <KeepJobFlowAliveWhenNoSteps>true</KeepJobFlowAliveWhenNoSteps>
+      </Instances>
+      <!--Zero or more repetitions:-->
+      <Steps>
+        <StepConfig>
+          <Name>string</Name>
+          <!--Optional:-->
+          <ActionOnFailure>string</ActionOnFailure>
+          <HadoopJarStep>
+            <!--Zero or more repetitions:-->
+            <Properties>
+              <!--Optional:-->
+              <Key>string</Key>
+              <!--Optional:-->
+              <Value>string</Value>
+            </Properties>
+            <Jar>string</Jar>
+            <!--Optional:-->
+            <MainClass>string</MainClass>
+            <!--1 or more repetitions:-->
+            <Args>string</Args>
+          </HadoopJarStep>
+        </StepConfig>
+        <ExecutionStatusDetail>
+          <State>string</State>
+          <CreationDateTime>string</CreationDateTime>
+          <!--Optional:-->
+          <StartDateTime>string</StartDateTime>
+          <!--Optional:-->
+          <EndDateTime>string</EndDateTime>
+          <!--Optional:-->
+          <LastStateChangeReason>string</LastStateChangeReason>
+        </ExecutionStatusDetail>
+      </Steps>
+    </JobFlows>
+  </DescribeJobFlowsResult>
+  <ResponseMetadata>
+    <RequestId>string</RequestId>
+  </ResponseMetadata>
+</DescribeJobFlowsResponse>
