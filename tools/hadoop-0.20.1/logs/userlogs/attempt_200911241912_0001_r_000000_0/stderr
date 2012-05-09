@@ -1,2 +1,0 @@
-log4j:WARN No appenders could be found for logger (org.apache.hadoop.hdfs.DFSClient).
-log4j:WARN Please initialize the log4j system properly.
