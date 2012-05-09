@@ -1,0 +1,2 @@
+
+ssh dmz 'echo "select * from WlanInfo" | mysql -ulp -plp lp'

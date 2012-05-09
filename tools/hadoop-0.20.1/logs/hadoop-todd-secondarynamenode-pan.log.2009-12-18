@@ -1,0 +1,312 @@
+2009-12-18 00:23:11,075 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 00:23:11,213 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 00:23:11,214 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 00:23:11,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 00:23:11,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 00:23:11,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 00:23:11,247 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 00:23:11,250 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 00:23:11,251 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 00:23:11,259 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 00:23:11,279 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 00:23:11,286 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261124591000:1261120990925
+2009-12-18 00:23:11,303 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 01:23:11,446 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 01:23:11,541 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 01:23:11,543 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 01:23:11,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 01:23:11,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 01:23:11,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 01:23:11,643 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 01:23:11,647 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 01:23:11,647 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 01:23:11,658 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 01:23:11,667 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 01:23:11,728 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261128191000:1261124591295
+2009-12-18 01:23:11,817 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 02:23:11,958 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 02:23:11,981 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 02:23:11,983 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 02:23:12,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 02:23:12,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 02:23:12,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 02:23:12,015 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 02:23:12,019 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 02:23:12,020 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 02:23:12,028 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 02:23:12,046 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 02:23:12,053 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261131791000:1261128191768
+2009-12-18 02:23:12,070 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 03:23:12,213 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 03:23:12,234 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 03:23:12,236 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 03:23:12,270 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 03:23:12,271 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 03:23:12,271 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 03:23:12,275 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 03:23:12,279 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 03:23:12,279 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 03:23:12,289 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 03:23:12,299 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 03:23:12,307 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261135392000:1261131792065
+2009-12-18 03:23:12,327 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 04:23:12,470 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 04:23:12,493 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 04:23:12,495 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 04:23:12,515 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 04:23:12,515 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 04:23:12,515 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 04:23:12,518 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 04:23:12,522 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 04:23:12,522 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 04:23:12,545 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 04:23:12,552 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 04:23:12,560 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261138992000:1261135392316
+2009-12-18 04:23:12,578 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 05:23:12,737 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 05:23:12,765 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 05:23:12,767 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 05:23:12,784 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 05:23:12,784 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 05:23:12,784 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 05:23:12,787 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 05:23:12,791 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 05:23:12,791 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 05:23:12,801 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 05:23:12,824 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 05:23:12,831 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261142592000:1261138992568
+2009-12-18 05:23:12,849 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 06:23:12,988 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 06:23:13,023 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 06:23:13,025 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 06:23:13,095 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 06:23:13,096 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 06:23:13,096 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 06:23:13,100 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 06:23:13,104 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 06:23:13,104 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 06:23:13,112 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 06:23:13,155 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 06:23:13,163 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261146193000:1261142592840
+2009-12-18 06:23:13,182 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 07:23:13,316 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 07:23:13,348 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 07:23:13,350 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 07:23:13,410 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 07:23:13,411 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 07:23:13,411 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 07:23:13,417 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 07:23:13,420 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 07:23:13,421 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 07:23:13,432 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 07:23:13,467 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 07:23:13,476 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261149793000:1261146193173
+2009-12-18 07:23:13,492 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 08:23:13,628 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 08:23:13,649 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 08:23:13,651 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 08:23:13,668 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 08:23:13,668 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 08:23:13,668 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 08:23:13,670 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 08:23:13,674 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 08:23:13,675 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 08:23:13,701 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 08:23:13,707 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 08:23:13,715 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261153393000:1261149793484
+2009-12-18 08:23:13,732 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 09:23:13,876 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 09:23:13,901 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 09:23:13,903 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 09:23:13,933 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 09:23:13,933 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 09:23:13,933 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 09:23:13,936 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 09:23:13,940 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 09:23:13,940 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 09:23:13,954 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 09:23:13,961 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 09:23:13,983 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261156993000:1261153393724
+2009-12-18 09:23:14,004 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 10:23:14,143 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 10:23:14,168 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 10:23:14,170 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 10:23:14,185 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 10:23:14,186 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 10:23:14,186 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 10:23:14,188 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 10:23:14,192 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 10:23:14,192 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 10:23:14,200 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 10:23:14,216 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 10:23:14,224 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261160594000:1261156993991
+2009-12-18 10:23:14,244 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 11:23:14,384 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 11:23:14,411 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 11:23:14,413 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 11:23:14,466 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 11:23:14,466 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 11:23:14,466 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 11:23:14,469 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 11:23:14,473 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 11:23:14,473 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 11:23:14,480 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 11:23:14,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 11:23:14,507 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261164194000:1261160594234
+2009-12-18 11:23:14,525 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 12:23:14,663 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 12:23:14,684 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 12:23:14,686 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 12:23:14,851 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 12:23:14,851 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 12:23:14,851 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 12:23:14,854 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 12:23:14,857 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 12:23:14,858 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 12:23:14,867 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 12:23:14,887 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 12:23:14,894 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261167794000:1261164194518
+2009-12-18 12:23:14,912 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 13:23:15,050 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 13:23:15,070 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 13:23:15,072 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 13:23:15,140 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 13:23:15,140 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 13:23:15,140 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 13:23:15,142 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 13:23:15,146 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 13:23:15,146 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 13:23:15,154 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 13:23:15,187 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 13:23:15,194 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261171395000:1261167794902
+2009-12-18 13:23:15,213 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 14:23:15,351 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 14:23:15,370 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 14:23:15,372 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 14:23:15,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 14:23:15,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 14:23:15,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 14:23:15,394 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 14:23:15,398 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 14:23:15,398 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 14:23:15,415 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 14:23:15,422 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 14:23:15,430 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261174995000:1261171395202
+2009-12-18 14:23:15,448 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 15:23:15,584 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 15:23:15,618 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 15:23:15,620 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 15:23:15,663 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 15:23:15,663 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 15:23:15,663 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 15:23:15,665 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 15:23:15,669 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 15:23:15,669 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 15:23:15,692 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 15:23:15,698 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 15:23:15,706 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261178595000:1261174995439
+2009-12-18 15:23:15,724 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 16:23:15,860 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 16:23:15,882 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 16:23:15,884 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 16:23:15,896 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 16:23:15,896 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 16:23:15,896 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 16:23:15,900 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 16:23:15,904 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 16:23:15,904 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 16:23:15,916 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 16:23:15,925 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 16:23:15,934 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261182195000:1261178595717
+2009-12-18 16:23:15,965 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 17:23:16,104 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 17:23:16,120 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 17:23:16,122 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 17:23:16,141 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 17:23:16,141 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 17:23:16,141 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 17:23:16,143 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 17:23:16,147 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 17:23:16,148 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 17:23:16,156 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 17:23:16,165 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 17:23:16,176 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261185796000:1261182195952
+2009-12-18 17:23:16,192 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 18:23:16,332 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 18:23:16,354 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 18:23:16,355 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 18:23:16,407 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 18:23:16,407 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 18:23:16,407 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 18:23:16,410 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 18:23:16,414 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 18:23:16,414 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 18:23:16,424 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 18:23:16,443 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 18:23:16,450 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261189396000:1261185796184
+2009-12-18 18:23:16,469 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 19:23:16,612 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 19:23:16,636 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 19:23:16,638 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 19:23:16,650 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 19:23:16,650 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 19:23:16,650 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 19:23:16,653 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 19:23:16,657 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 19:23:16,657 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 19:23:16,681 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 19:23:16,687 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 19:23:16,695 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261192996000:1261189396459
+2009-12-18 19:23:16,713 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 20:23:16,857 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 20:23:16,901 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 20:23:16,903 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 20:23:16,945 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 20:23:16,946 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 20:23:16,946 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 20:23:16,948 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 20:23:16,952 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 20:23:16,952 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 20:23:16,965 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 20:23:16,971 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 20:23:16,984 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261196596000:1261192996703
+2009-12-18 20:23:17,005 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 21:23:17,142 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 21:23:17,161 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 21:23:17,163 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 21:23:17,180 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 21:23:17,180 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 21:23:17,180 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 21:23:17,182 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 21:23:17,187 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 21:23:17,187 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 21:23:17,194 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 21:23:17,213 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 21:23:17,220 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261200197000:1261196596993
+2009-12-18 21:23:17,238 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 22:23:17,382 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 22:23:17,404 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 22:23:17,406 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 22:23:17,475 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 22:23:17,476 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 22:23:17,476 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 22:23:17,488 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 22:23:17,492 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 22:23:17,492 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 22:23:17,502 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 22:23:17,525 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 22:23:17,544 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261203797000:1261200197228
+2009-12-18 22:23:17,564 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-12-18 23:23:17,707 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 23:23:17,729 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-12-18 23:23:17,730 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-12-18 23:23:17,743 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-12-18 23:23:17,743 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-12-18 23:23:17,743 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-12-18 23:23:17,745 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-12-18 23:23:17,749 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-12-18 23:23:17,750 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-12-18 23:23:17,759 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-12-18 23:23:17,778 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-12-18 23:23:17,787 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1261207397000:1261203797553
+2009-12-18 23:23:17,803 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967

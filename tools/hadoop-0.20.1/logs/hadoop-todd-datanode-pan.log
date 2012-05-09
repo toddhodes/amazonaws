@@ -1,0 +1,14 @@
+2010-01-22 00:43:11,969 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 18 msecs
+2010-01-22 01:43:12,249 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 11 msecs
+2010-01-22 02:43:12,448 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 11 msecs
+2010-01-22 03:43:12,717 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 13 msecs
+2010-01-22 04:43:12,973 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 12 msecs
+2010-01-22 05:43:13,208 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 12 msecs
+2010-01-22 06:43:13,447 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 12 msecs
+2010-01-22 07:43:13,688 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 18 msecs
+2010-01-22 08:43:13,877 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 12 msecs
+2010-01-22 09:43:14,073 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 12 msecs
+2010-01-22 10:43:11,295 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 12 msecs
+2010-01-22 11:43:11,508 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 13 msecs
+2010-01-22 12:43:11,736 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 12 msecs
+2010-01-22 13:43:11,925 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 73 blocks got processed in 12 msecs

@@ -4,7 +4,7 @@
 .phony: cell load_vpcell run_vpcell
 
 
-HADOOP_HOME=/ext/home/todd/src/hadoop-0.20.1/
+HADOOP_HOME=../tools/hadoop-0.20.1/
 HADOOP_VERSION=0.20.1
 HADOOP_BIN=$(HADOOP_HOME)/bin
 

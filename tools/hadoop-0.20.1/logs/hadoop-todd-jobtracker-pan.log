@@ -1,0 +1,4 @@
+2009-11-25 19:59:52,611 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_200911241912_0001' of user 'todd'
+2009-11-25 19:59:52,677 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /ext/home/todd/src/hadoop-0.20.1/bin/../logs/job_200911241912_0001_conf.xml
+2009-11-25 20:51:53,114 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_200911241912_0002' of user 'todd'
+2009-11-25 20:51:53,114 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /ext/home/todd/src/hadoop-0.20.1/bin/../logs/job_200911241912_0002_conf.xml

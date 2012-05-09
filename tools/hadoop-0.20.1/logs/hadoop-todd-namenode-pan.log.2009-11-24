@@ -1,0 +1,936 @@
+2009-11-24 19:08:23,470 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = pan/192.168.0.112
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.1
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/common/tags/release-0.20.1-rc1 -r 810220; compiled by 'oom' on Tue Sep  1 20:55:56 UTC 2009
+************************************************************/
+2009-11-24 19:08:23,647 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2009-11-24 19:08:23,657 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost/127.0.0.1:9000
+2009-11-24 19:08:23,662 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2009-11-24 19:08:23,664 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2009-11-24 19:08:23,801 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-11-24 19:08:23,801 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-11-24 19:08:23,801 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-11-24 19:08:23,815 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2009-11-24 19:08:23,817 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2009-11-24 19:08:23,877 ERROR org.apache.hadoop.hdfs.server.namenode.FSNamesystem: FSNamesystem initialization failed.
+java.io.IOException: NameNode is not formatted.
+	at org.apache.hadoop.hdfs.server.namenode.FSImage.recoverTransitionRead(FSImage.java:317)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.loadFSImage(FSDirectory.java:87)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.initialize(FSNamesystem.java:311)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.<init>(FSNamesystem.java:292)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:201)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:279)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:956)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:965)
+2009-11-24 19:08:23,879 INFO org.apache.hadoop.ipc.Server: Stopping server on 9000
+2009-11-24 19:08:23,880 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: java.io.IOException: NameNode is not formatted.
+	at org.apache.hadoop.hdfs.server.namenode.FSImage.recoverTransitionRead(FSImage.java:317)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.loadFSImage(FSDirectory.java:87)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.initialize(FSNamesystem.java:311)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.<init>(FSNamesystem.java:292)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:201)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:279)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:956)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:965)
+
+2009-11-24 19:08:23,881 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at pan/192.168.0.112
+************************************************************/
+2009-11-24 19:09:44,924 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = pan/192.168.0.112
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.1
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/common/tags/release-0.20.1-rc1 -r 810220; compiled by 'oom' on Tue Sep  1 20:55:56 UTC 2009
+************************************************************/
+2009-11-24 19:09:45,100 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2009-11-24 19:09:45,108 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost/127.0.0.1:9000
+2009-11-24 19:09:45,113 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2009-11-24 19:09:45,115 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2009-11-24 19:09:45,263 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-11-24 19:09:45,263 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-11-24 19:09:45,263 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-11-24 19:09:45,281 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2009-11-24 19:09:45,283 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2009-11-24 19:09:45,340 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2009-11-24 19:09:45,351 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-11-24 19:09:45,351 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 94 loaded in 0 seconds.
+2009-11-24 19:09:45,352 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-11-24 19:09:45,365 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 94 saved in 0 seconds.
+2009-11-24 19:09:45,389 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 206 msecs
+2009-11-24 19:09:45,401 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 0
+2009-11-24 19:09:45,401 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2009-11-24 19:09:45,401 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2009-11-24 19:09:45,401 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2009-11-24 19:09:45,402 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2009-11-24 19:09:45,402 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2009-11-24 19:09:45,402 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2009-11-24 19:09:45,654 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2009-11-24 19:09:45,781 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2009-11-24 19:09:45,783 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2009-11-24 19:09:45,783 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2009-11-24 19:09:45,783 INFO org.mortbay.log: jetty-6.1.14
+2009-11-24 19:09:47,875 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2009-11-24 19:09:47,876 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2009-11-24 19:09:47,877 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2009-11-24 19:09:47,877 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2009-11-24 19:09:47,880 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2009-11-24 19:09:47,882 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2009-11-24 19:09:47,884 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2009-11-24 19:09:47,885 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2009-11-24 19:09:47,886 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2009-11-24 19:09:47,886 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2009-11-24 19:09:47,886 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2009-11-24 19:09:47,887 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2009-11-24 19:09:47,887 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2009-11-24 19:09:47,888 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2009-11-24 19:09:58,154 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/tmp/hadoop-todd/mapred/system	dst=null	perm=null
+2009-11-24 19:09:58,192 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/tmp/hadoop-todd/mapred/system	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:09:58,197 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system	dst=null	perm=todd:supergroup:rwx-wx-wx
+2009-11-24 19:09:58,348 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:09:58,358 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:09:58,365 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43963: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:09:58,380 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:10:08,414 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:10:08,419 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:10:08,423 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43967: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:10:08,429 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:10:09,474 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/input	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:10:12,186 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd	dst=null	perm=null
+2009-11-24 19:10:18,458 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:10:18,463 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:10:18,465 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43972: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:10:18,470 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:10:28,494 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:10:28,498 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:10:28,500 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43973: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:10:28,505 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:10:38,530 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:10:38,534 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:10:38,536 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43974: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:10:38,541 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:10:40,848 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/output-vpcells	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:10:48,565 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 31 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 20 SyncTimes(ms): 51 
+2009-11-24 19:10:48,571 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:10:48,575 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:10:48,577 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43977: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:10:48,582 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:10:53,855 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/input/OpenCellId	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:10:56,897 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:10:56,942 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000, call addBlock(/user/todd/input/OpenCellId/measures.txt, DFSClient_404083445) from 127.0.0.1:43981: error: java.io.IOException: File /user/todd/input/OpenCellId/measures.txt could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /user/todd/input/OpenCellId/measures.txt could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:10:58,607 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:10:58,611 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:10:58,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43982: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:10:58,630 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:11:08,656 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:11:08,659 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:11:08,661 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43985: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:11:08,666 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:11:09,777 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/input/OpenCellId	dst=null	perm=null
+2009-11-24 19:11:18,425 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/input/OpenCellId	dst=null	perm=null
+2009-11-24 19:11:18,442 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:11:18,694 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:11:18,698 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:11:18,702 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43990: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:11:18,709 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:11:22,574 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:11:22,587 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000, call addBlock(/user/todd/input/OpenCellId/measures.txt, DFSClient_269757940) from 127.0.0.1:43992: error: java.io.IOException: File /user/todd/input/OpenCellId/measures.txt could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /user/todd/input/OpenCellId/measures.txt could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:11:28,733 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:11:28,739 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:11:28,741 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43993: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:11:28,747 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:11:38,773 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:11:38,783 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:11:38,785 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000, call addBlock(/tmp/hadoop-todd/mapred/system/jobtracker.info, DFSClient_1917103728) from 127.0.0.1:43994: error: java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+java.io.IOException: File /tmp/hadoop-todd/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:11:38,790 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=null
+2009-11-24 19:11:47,599 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at pan/192.168.0.112
+************************************************************/
+2009-11-24 19:12:25,555 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = pan/192.168.0.112
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.1
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/common/tags/release-0.20.1-rc1 -r 810220; compiled by 'oom' on Tue Sep  1 20:55:56 UTC 2009
+************************************************************/
+2009-11-24 19:12:25,732 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2009-11-24 19:12:25,741 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost/127.0.0.1:9000
+2009-11-24 19:12:25,745 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2009-11-24 19:12:25,747 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2009-11-24 19:12:25,881 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-11-24 19:12:25,881 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-11-24 19:12:25,881 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-11-24 19:12:25,905 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2009-11-24 19:12:25,907 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2009-11-24 19:12:25,967 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2009-11-24 19:12:25,976 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-11-24 19:12:25,976 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 94 loaded in 0 seconds.
+2009-11-24 19:12:25,976 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-11-24 19:12:25,991 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 94 saved in 0 seconds.
+2009-11-24 19:12:26,015 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 205 msecs
+2009-11-24 19:12:26,018 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 0
+2009-11-24 19:12:26,018 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2009-11-24 19:12:26,018 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2009-11-24 19:12:26,018 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2009-11-24 19:12:26,018 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2009-11-24 19:12:26,019 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2009-11-24 19:12:26,019 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2009-11-24 19:12:26,268 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2009-11-24 19:12:26,400 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2009-11-24 19:12:26,402 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2009-11-24 19:12:26,402 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2009-11-24 19:12:26,402 INFO org.mortbay.log: jetty-6.1.14
+2009-11-24 19:12:27,103 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2009-11-24 19:12:27,103 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2009-11-24 19:12:27,104 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2009-11-24 19:12:27,108 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2009-11-24 19:12:27,109 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2009-11-24 19:12:27,110 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2009-11-24 19:12:27,112 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2009-11-24 19:12:27,113 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2009-11-24 19:12:27,113 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2009-11-24 19:12:27,114 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2009-11-24 19:12:27,114 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2009-11-24 19:12:27,115 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2009-11-24 19:12:27,115 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2009-11-24 19:12:27,118 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2009-11-24 19:12:30,374 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:50010 storage DS-601078548-192.168.0.112-50010-1259118750365
+2009-11-24 19:12:30,384 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2009-11-24 19:12:39,859 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/tmp/hadoop-todd/mapred/system	dst=null	perm=null
+2009-11-24 19:12:39,885 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/tmp/hadoop-todd/mapred/system	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:12:39,891 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system	dst=null	perm=todd:supergroup:rwx-wx-wx
+2009-11-24 19:12:39,995 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:12:40,008 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/jobtracker.info	dst=null	perm=todd:supergroup:rw-------
+2009-11-24 19:12:40,013 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hadoop-todd/mapred/system/jobtracker.info. blk_-6005443262326597961_1001
+2009-11-24 19:12:40,133 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6005443262326597961_1001 size 4
+2009-11-24 19:12:40,144 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hadoop-todd/mapred/system/jobtracker.info is closed by DFSClient_-353214101
+2009-11-24 19:12:45,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/input	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:12:47,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/input/OpenCellId	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:12:54,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:12:54,496 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_6374959443968219417_1002
+2009-11-24 19:12:57,018 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6374959443968219417_1002 size 67108864
+2009-11-24 19:12:57,022 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-9098837993845076505_1002
+2009-11-24 19:12:59,224 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-9098837993845076505_1002 size 67108864
+2009-11-24 19:12:59,232 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_2228856570273540411_1002
+2009-11-24 19:13:02,447 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2228856570273540411_1002 size 67108864
+2009-11-24 19:13:02,453 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_2574292456747059141_1002
+2009-11-24 19:13:04,512 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2574292456747059141_1002 size 67108864
+2009-11-24 19:13:04,518 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-4826662343811498294_1002
+2009-11-24 19:13:08,064 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-4826662343811498294_1002 size 67108864
+2009-11-24 19:13:08,067 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-146657799085204015_1002
+2009-11-24 19:13:11,297 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-146657799085204015_1002 size 67108864
+2009-11-24 19:13:11,299 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-8312853607682343955_1002
+2009-11-24 19:13:13,293 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8312853607682343955_1002 size 67108864
+2009-11-24 19:13:13,310 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-8046266481400348474_1002
+2009-11-24 19:13:16,189 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8046266481400348474_1002 size 67108864
+2009-11-24 19:13:16,191 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-5971318080504481330_1002
+2009-11-24 19:13:18,035 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5971318080504481330_1002 size 67108864
+2009-11-24 19:13:18,040 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-6507580087881710013_1002
+2009-11-24 19:13:21,177 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6507580087881710013_1002 size 67108864
+2009-11-24 19:13:21,181 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-2022091463935276823_1002
+2009-11-24 19:13:22,983 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2022091463935276823_1002 size 67108864
+2009-11-24 19:13:22,988 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-5084520434406282067_1002
+2009-11-24 19:13:24,718 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5084520434406282067_1002 size 67108864
+2009-11-24 19:13:24,722 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-5390140753598615162_1002
+2009-11-24 19:13:26,677 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5390140753598615162_1002 size 67108864
+2009-11-24 19:13:26,682 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_5105422600567142738_1002
+2009-11-24 19:13:28,415 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5105422600567142738_1002 size 67108864
+2009-11-24 19:13:28,437 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-9159892909064095613_1002
+2009-11-24 19:13:30,343 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-9159892909064095613_1002 size 67108864
+2009-11-24 19:13:30,348 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_902558871305901266_1002
+2009-11-24 19:13:32,212 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_902558871305901266_1002 size 67108864
+2009-11-24 19:13:32,218 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_4120983376830917719_1002
+2009-11-24 19:13:33,914 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4120983376830917719_1002 size 67108864
+2009-11-24 19:13:33,916 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_6283313744910420410_1002
+2009-11-24 19:13:35,921 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6283313744910420410_1002 size 67108864
+2009-11-24 19:13:35,924 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-2810791637485601197_1002
+2009-11-24 19:13:37,764 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2810791637485601197_1002 size 67108864
+2009-11-24 19:13:37,765 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_9206004236142283121_1002
+2009-11-24 19:13:39,498 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_9206004236142283121_1002 size 67108864
+2009-11-24 19:13:39,504 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_7363371318544542761_1002
+2009-11-24 19:13:41,261 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_7363371318544542761_1002 size 67108864
+2009-11-24 19:13:41,262 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_8943676802723486551_1002
+2009-11-24 19:13:43,062 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8943676802723486551_1002 size 67108864
+2009-11-24 19:13:43,065 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-6824419359979782734_1002
+2009-11-24 19:13:44,697 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6824419359979782734_1002 size 67108864
+2009-11-24 19:13:44,698 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-5695682593972561366_1002
+2009-11-24 19:13:47,557 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-5003719701344363797_1002
+2009-11-24 19:13:47,559 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5695682593972561366_1002 size 67108864
+2009-11-24 19:13:49,752 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5003719701344363797_1002 size 67108864
+2009-11-24 19:13:49,755 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-3577962748883672148_1002
+2009-11-24 19:13:53,174 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-3577962748883672148_1002 size 67108864
+2009-11-24 19:13:53,180 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-9024184900167844288_1002
+2009-11-24 19:13:55,301 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-9024184900167844288_1002 size 67108864
+2009-11-24 19:13:55,303 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_1313844224426958466_1002
+2009-11-24 19:13:57,229 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1313844224426958466_1002 size 67108864
+2009-11-24 19:13:57,236 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-6073472141661550835_1002
+2009-11-24 19:13:58,988 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6073472141661550835_1002 size 67108864
+2009-11-24 19:13:58,995 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-5986283375921202593_1002
+2009-11-24 19:14:00,808 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5986283375921202593_1002 size 67108864
+2009-11-24 19:14:00,811 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_4018469882529673313_1002
+2009-11-24 19:14:02,487 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4018469882529673313_1002 size 67108864
+2009-11-24 19:14:02,488 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-8911221210371830175_1002
+2009-11-24 19:14:04,236 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8911221210371830175_1002 size 67108864
+2009-11-24 19:14:04,239 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_3565367949583609860_1002
+2009-11-24 19:14:06,406 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_3565367949583609860_1002 size 67108864
+2009-11-24 19:14:06,407 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_3898175248855382458_1002
+2009-11-24 19:14:08,251 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_3898175248855382458_1002 size 67108864
+2009-11-24 19:14:08,253 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_152077110819832250_1002
+2009-11-24 19:14:10,044 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_152077110819832250_1002 size 67108864
+2009-11-24 19:14:10,045 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-725355216484193645_1002
+2009-11-24 19:14:12,115 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-725355216484193645_1002 size 67108864
+2009-11-24 19:14:12,116 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_2917788404251173577_1002
+2009-11-24 19:14:13,934 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2917788404251173577_1002 size 67108864
+2009-11-24 19:14:13,936 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-1725420820932432084_1002
+2009-11-24 19:14:15,977 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1725420820932432084_1002 size 67108864
+2009-11-24 19:14:15,981 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-1818045704609054279_1002
+2009-11-24 19:14:17,811 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1818045704609054279_1002 size 67108864
+2009-11-24 19:14:17,812 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_9114338922654856519_1002
+2009-11-24 19:14:19,748 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_9114338922654856519_1002 size 67108864
+2009-11-24 19:14:19,749 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-8201795996847823270_1002
+2009-11-24 19:14:21,743 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8201795996847823270_1002 size 67108864
+2009-11-24 19:14:21,744 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_9127110920498551750_1002
+2009-11-24 19:14:24,866 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_9127110920498551750_1002 size 67108864
+2009-11-24 19:14:24,877 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_106219135904847371_1002
+2009-11-24 19:14:27,092 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_106219135904847371_1002 size 67108864
+2009-11-24 19:14:27,103 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-983976150829041005_1002
+2009-11-24 19:14:29,017 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-983976150829041005_1002 size 67108864
+2009-11-24 19:14:29,018 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-7913357480057309128_1002
+2009-11-24 19:14:31,275 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7913357480057309128_1002 size 67108864
+2009-11-24 19:14:31,276 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-2403553508581194561_1002
+2009-11-24 19:14:33,500 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2403553508581194561_1002 size 67108864
+2009-11-24 19:14:33,504 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-8096565958316753116_1002
+2009-11-24 19:14:37,325 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8096565958316753116_1002 size 67108864
+2009-11-24 19:14:37,328 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_2107580031100332269_1002
+2009-11-24 19:14:39,322 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2107580031100332269_1002 size 67108864
+2009-11-24 19:14:39,323 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_6510726093887609064_1002
+2009-11-24 19:14:41,704 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6510726093887609064_1002 size 67108864
+2009-11-24 19:14:41,705 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-4481095126143446031_1002
+2009-11-24 19:14:43,665 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-4481095126143446031_1002 size 67108864
+2009-11-24 19:14:43,665 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_530328475305077946_1002
+2009-11-24 19:14:46,492 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_530328475305077946_1002 size 67108864
+2009-11-24 19:14:46,494 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-6380764397390136909_1002
+2009-11-24 19:14:48,395 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6380764397390136909_1002 size 67108864
+2009-11-24 19:14:48,397 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_2280573750004181106_1002
+2009-11-24 19:14:50,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2280573750004181106_1002 size 67108864
+2009-11-24 19:14:50,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-2065500349369612199_1002
+2009-11-24 19:14:52,612 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2065500349369612199_1002 size 67108864
+2009-11-24 19:14:52,615 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-6018452838507011510_1002
+2009-11-24 19:14:54,395 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6018452838507011510_1002 size 67108864
+2009-11-24 19:14:54,396 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_2954387984690506149_1002
+2009-11-24 19:14:56,987 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2954387984690506149_1002 size 67108864
+2009-11-24 19:14:56,991 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-324041009898646811_1002
+2009-11-24 19:14:58,744 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-324041009898646811_1002 size 67108864
+2009-11-24 19:14:58,745 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-7051465914828196198_1002
+2009-11-24 19:15:01,979 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7051465914828196198_1002 size 67108864
+2009-11-24 19:15:01,994 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-7285887169196561518_1002
+2009-11-24 19:15:03,802 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7285887169196561518_1002 size 67108864
+2009-11-24 19:15:03,807 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_1586664436330594661_1002
+2009-11-24 19:15:05,883 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1586664436330594661_1002 size 67108864
+2009-11-24 19:15:05,885 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_6239745576525008081_1002
+2009-11-24 19:15:07,663 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6239745576525008081_1002 size 67108864
+2009-11-24 19:15:07,669 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_5397802161629108603_1002
+2009-11-24 19:15:09,749 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5397802161629108603_1002 size 67108864
+2009-11-24 19:15:09,751 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_3071705203716317461_1002
+2009-11-24 19:15:12,375 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_3071705203716317461_1002 size 67108864
+2009-11-24 19:15:12,376 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-147823619361935874_1002
+2009-11-24 19:15:14,183 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-147823619361935874_1002 size 67108864
+2009-11-24 19:15:14,187 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_7713670367407120331_1002
+2009-11-24 19:15:16,538 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_7713670367407120331_1002 size 67108864
+2009-11-24 19:15:16,542 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_3336529273235665508_1002
+2009-11-24 19:15:18,377 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_3336529273235665508_1002 size 67108864
+2009-11-24 19:15:18,385 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/input/OpenCellId/measures.txt. blk_-1770677562726138725_1002
+2009-11-24 19:15:19,832 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1770677562726138725_1002 size 53305628
+2009-11-24 19:15:19,834 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/todd/input/OpenCellId/measures.txt is closed by DFSClient_1480352445
+2009-11-24 19:15:19,834 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 16 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 9 SyncTimes(ms): 22 
+2009-11-24 19:17:44,783 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2009-11-24 19:17:44,800 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 16 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 10 SyncTimes(ms): 3072 
+2009-11-24 19:17:45,522 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2009-11-24 19:17:45,522 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 2 
+2009-11-24 19:19:49,464 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 19:19:49,472 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/output-vpcells	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:19:54,215 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/user/todd/output-vpcells	dst=null	perm=null
+2009-11-24 19:19:55,591 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:19:55,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001	dst=null	perm=todd:supergroup:rwxrwxrwx
+2009-11-24 19:19:55,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.jar	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:19:55,648 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.jar. blk_1088795425690200410_1003
+2009-11-24 19:19:55,746 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1088795425690200410_1003 size 10832
+2009-11-24 19:19:55,750 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.jar is closed by DFSClient_517871328
+2009-11-24 19:19:55,753 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.jar. New replication is 10
+2009-11-24 19:19:55,754 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setReplication	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.jar	dst=null	perm=null
+2009-11-24 19:19:55,758 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.jar	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:19:55,803 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:19:55,865 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.split	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:19:55,868 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.split	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:19:55,881 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.split. blk_-5371069152233814291_1004
+2009-11-24 19:19:55,905 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5371069152233814291_1004 size 10122
+2009-11-24 19:19:55,908 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.split is closed by DFSClient_517871328
+2009-11-24 19:19:55,914 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.xml	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:19:55,917 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.xml	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:19:56,131 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.xml. blk_8312395028187429349_1005
+2009-11-24 19:19:56,144 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8312395028187429349_1005 size 16573
+2009-11-24 19:19:56,146 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.xml is closed by DFSClient_517871328
+2009-11-24 19:19:56,284 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.xml	dst=null	perm=null
+2009-11-24 19:19:56,439 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.jar	dst=null	perm=null
+2009-11-24 19:19:56,589 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/output-vpcells/_logs/history/localhost_1259118751342_job_200911241912_0001_todd_centroid	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:19:56,753 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/output-vpcells/_logs/history/localhost_1259118751342_job_200911241912_0001_conf.xml	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:19:56,796 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/output-vpcells/_logs/history/localhost_1259118751342_job_200911241912_0001_conf.xml. blk_1348349873513151918_1007
+2009-11-24 19:19:56,805 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1348349873513151918_1007 size 16558
+2009-11-24 19:19:56,809 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/todd/output-vpcells/_logs/history/localhost_1259118751342_job_200911241912_0001_conf.xml is closed by DFSClient_-353214101
+2009-11-24 19:19:56,813 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.split	dst=null	perm=null
+2009-11-24 19:19:57,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.xml	dst=null	perm=null
+2009-11-24 19:19:57,570 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001/job.jar	dst=null	perm=null
+2009-11-24 19:19:59,252 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/output-vpcells/_temporary	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:20:02,472 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:20:02,520 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:20:29,803 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:20:29,833 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:20:59,186 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:21:03,720 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:21:41,672 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:21:45,286 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:22:12,277 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:22:18,577 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:22:42,554 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:22:42,643 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:22:42,852 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:22:55,079 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:22:55,093 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:23:15,975 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:23:15,991 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:23:28,092 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:23:28,108 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:23:43,577 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:23:43,590 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:23:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:23:58,830 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:24:13,851 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:24:13,874 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:24:31,834 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:24:31,849 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:24:51,757 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:24:51,775 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:25:04,676 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:25:04,691 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:25:25,447 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:25:25,464 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:25:41,431 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:25:41,488 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:26:00,021 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:26:00,041 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:26:25,933 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:26:25,948 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:26:29,522 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:26:29,544 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:27:09,363 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:27:09,386 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:27:09,837 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:27:09,873 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:27:56,758 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:27:56,770 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:28:04,945 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:28:05,047 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:28:39,507 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:28:39,824 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:28:46,124 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:28:46,139 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:29:25,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:29:25,229 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:29:28,675 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:29:28,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:30:17,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:30:17,513 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:30:20,844 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:30:20,862 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:31:06,230 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:31:06,242 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:31:12,563 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:31:12,825 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:31:52,555 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/output-vpcells/_logs/history/localhost_1259118751342_job_200911241912_0001_todd_centroid. blk_-1218343230071524661_1007
+2009-11-24 19:31:54,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:31:54,256 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:32:16,027 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:32:16,042 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:32:58,071 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:32:58,088 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:33:01,787 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:33:01,817 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:34:01,312 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:34:01,328 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:34:05,129 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:34:05,144 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:34:59,440 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:34:59,454 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:35:08,561 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:35:08,577 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:36:00,249 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:36:00,270 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:36:00,352 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:36:00,364 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:36:46,205 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:36:46,218 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:36:53,550 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:36:53,586 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:37:40,813 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:37:40,827 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:37:47,544 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:37:47,660 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:38:44,543 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:38:44,580 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:38:51,367 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:38:51,387 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:39:41,919 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:39:41,938 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:39:53,453 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:39:53,479 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:40:43,418 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:40:43,435 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:40:43,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:40:43,490 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:41:43,767 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:41:43,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:41:44,298 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:41:44,335 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:42:25,770 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:42:25,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:42:44,011 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:42:44,027 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:43:20,166 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:43:20,178 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:43:50,477 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:43:50,490 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:43:57,952 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:43:57,964 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:44:45,512 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:44:45,534 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:44:45,608 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:44:45,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:45:30,752 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:45:30,766 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:47:21,749 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 27 Total time for transactions(ms): 1Number of transactions batched in Syncs: 1 Number of syncs: 18 SyncTimes(ms): 82 
+2009-11-24 19:47:36,260 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/output-vpcells/_temporary/_attempt_200911241912_0001_r_000000_0	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:47:37,372 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/output-vpcells/_temporary/_attempt_200911241912_0001_r_000000_0/part-00000	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:47:39,720 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/user/todd/output-vpcells/_temporary/_attempt_200911241912_0001_r_000000_0	dst=null	perm=null
+2009-11-24 19:47:39,733 WARN org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: failed to complete /user/todd/output-vpcells/_temporary/_attempt_200911241912_0001_r_000000_0/part-00000 because dir.getFileBlocks() is null  and pendingFile is null
+2009-11-24 19:47:39,735 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000, call complete(/user/todd/output-vpcells/_temporary/_attempt_200911241912_0001_r_000000_0/part-00000, DFSClient_attempt_200911241912_0001_r_000000_0) from 127.0.0.1:60709: error: java.io.IOException: Could not complete write to file /user/todd/output-vpcells/_temporary/_attempt_200911241912_0001_r_000000_0/part-00000 by DFSClient_attempt_200911241912_0001_r_000000_0
+java.io.IOException: Could not complete write to file /user/todd/output-vpcells/_temporary/_attempt_200911241912_0001_r_000000_0/part-00000 by DFSClient_attempt_200911241912_0001_r_000000_0
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.complete(NameNode.java:449)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2009-11-24 19:59:22,981 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 31 Total time for transactions(ms): 2Number of transactions batched in Syncs: 2 Number of syncs: 21 SyncTimes(ms): 17221 
+2009-11-24 19:59:32,055 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/user/todd/output-vpcells/_temporary	dst=null	perm=null
+2009-11-24 19:59:32,789 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1218343230071524661_1007 size 140793
+2009-11-24 19:59:32,795 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/todd/output-vpcells/_logs/history/localhost_1259118751342_job_200911241912_0001_todd_centroid is closed by DFSClient_-353214101
+2009-11-24 19:59:32,863 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1088795425690200410 is added to invalidSet of 127.0.0.1:50010
+2009-11-24 19:59:32,863 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5371069152233814291 is added to invalidSet of 127.0.0.1:50010
+2009-11-24 19:59:32,863 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_8312395028187429349 is added to invalidSet of 127.0.0.1:50010
+2009-11-24 19:59:32,875 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0001	dst=null	perm=null
+2009-11-24 19:59:33,359 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_8312395028187429349_1005 blk_1088795425690200410_1003 blk_-5371069152233814291_1004
+2009-11-24 19:59:48,110 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:59:48,117 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002	dst=null	perm=todd:supergroup:rwxrwxrwx
+2009-11-24 19:59:48,220 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.jar	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:59:48,254 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.jar. blk_-9128029415180854445_1009
+2009-11-24 19:59:48,369 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-9128029415180854445_1009 size 10839
+2009-11-24 19:59:48,372 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.jar is closed by DFSClient_581825255
+2009-11-24 19:59:48,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.jar. New replication is 10
+2009-11-24 19:59:48,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setReplication	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.jar	dst=null	perm=null
+2009-11-24 19:59:48,379 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.jar	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:59:48,456 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:59:48,524 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.split	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:59:48,527 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.split	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:59:48,541 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.split. blk_-9138103535003721680_1010
+2009-11-24 19:59:48,562 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-9138103535003721680_1010 size 10122
+2009-11-24 19:59:48,565 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.split is closed by DFSClient_581825255
+2009-11-24 19:59:48,579 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.xml	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:59:48,584 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=setPermission	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.xml	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:59:48,837 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.xml. blk_-3725186636122841571_1011
+2009-11-24 19:59:48,845 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-3725186636122841571_1011 size 16576
+2009-11-24 19:59:48,847 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.xml is closed by DFSClient_581825255
+2009-11-24 19:59:48,872 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.xml	dst=null	perm=null
+2009-11-24 19:59:48,969 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.jar	dst=null	perm=null
+2009-11-24 19:59:49,085 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/output-opencellid/_logs/history/localhost_1259118751342_job_200911241912_0002_todd_centroid	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:59:49,179 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/output-opencellid/_logs/history/localhost_1259118751342_job_200911241912_0002_conf.xml	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 19:59:49,202 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/output-opencellid/_logs/history/localhost_1259118751342_job_200911241912_0002_conf.xml. blk_-4629357374346045565_1013
+2009-11-24 19:59:49,227 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-4629357374346045565_1013 size 16561
+2009-11-24 19:59:49,234 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/todd/output-opencellid/_logs/history/localhost_1259118751342_job_200911241912_0002_conf.xml is closed by DFSClient_-353214101
+2009-11-24 19:59:49,240 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.split	dst=null	perm=null
+2009-11-24 19:59:50,089 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.xml	dst=null	perm=null
+2009-11-24 19:59:50,216 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002/job.jar	dst=null	perm=null
+2009-11-24 19:59:51,850 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/output-opencellid/_temporary	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 19:59:55,164 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 19:59:55,411 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:00:21,935 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:00:25,636 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:00:49,353 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:00:53,917 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:01:23,506 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:01:41,629 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:02:03,238 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:02:12,860 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:02:33,134 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:02:33,184 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:02:33,207 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:02:44,907 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:02:44,921 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:03:07,055 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:03:07,076 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:03:18,857 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:03:18,875 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:03:37,256 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:03:37,270 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:03:51,943 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:03:51,961 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:04:10,151 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:04:10,178 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:04:27,427 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:04:27,441 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:04:43,679 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:04:43,694 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:04:58,782 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:04:58,798 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:05:14,731 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:05:14,758 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:05:32,732 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:05:32,745 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:05:53,870 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:05:53,884 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:06:15,772 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:06:15,815 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:06:30,096 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:06:30,111 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:06:54,366 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:06:54,411 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:07:18,539 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:07:18,552 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:07:45,605 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:07:46,117 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:08:04,414 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:08:04,431 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:08:40,359 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:08:40,380 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:08:47,572 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:08:47,604 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:09:41,488 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:09:41,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:09:42,954 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:09:42,976 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:10:39,354 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:10:39,367 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:10:43,029 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:10:43,053 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:11:31,331 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:11:31,346 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:11:43,849 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:11:43,869 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:12:24,524 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/output-opencellid/_logs/history/localhost_1259118751342_job_200911241912_0002_todd_centroid. blk_-669079307513556834_1013
+2009-11-24 20:12:26,463 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:12:26,477 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:12:47,089 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:12:47,571 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:13:17,917 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:13:17,939 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:13:48,102 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:13:48,114 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:14:14,982 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:14:15,295 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:14:33,876 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:14:33,890 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:15:09,866 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:15:09,879 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:15:22,063 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:15:22,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:16:04,327 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:16:04,341 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:16:14,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:16:14,097 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:16:56,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:16:56,227 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:16:56,689 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:16:56,708 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:17:51,025 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:17:51,037 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:17:51,142 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:17:51,155 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:18:41,918 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:18:41,931 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:18:46,322 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:18:46,343 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:19:33,123 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2009-11-24 20:19:33,238 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 58 Total time for transactions(ms): 4Number of transactions batched in Syncs: 3 Number of syncs: 40 SyncTimes(ms): 26420 
+2009-11-24 20:20:42,672 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:20:42,672 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:20:42,689 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:20:42,690 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:20:45,360 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2009-11-24 20:20:45,361 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 4925 
+2009-11-24 20:21:10,202 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:21:10,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:21:10,419 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:21:10,475 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:21:49,636 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:21:49,659 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:21:50,003 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:21:50,251 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:22:26,130 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:22:26,145 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:22:29,514 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:22:29,527 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:23:08,862 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:23:08,875 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:23:33,383 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:23:33,397 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:23:48,395 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:23:48,409 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:24:18,719 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:24:18,733 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:24:27,398 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:24:27,430 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:24:52,438 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:24:52,455 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/input/OpenCellId/measures.txt	dst=null	perm=null
+2009-11-24 20:26:32,222 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 20:26:44,202 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/output-opencellid/_temporary/_attempt_200911241912_0002_r_000000_0	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 20:26:46,799 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=create	src=/user/todd/output-opencellid/_temporary/_attempt_200911241912_0002_r_000000_0/part-00000	dst=null	perm=todd:supergroup:rw-r--r--
+2009-11-24 20:26:50,213 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/todd/output-opencellid/_temporary/_attempt_200911241912_0002_r_000000_0/part-00000. blk_-690992389397635686_1014
+2009-11-24 20:50:53,222 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-690992389397635686_1014 size 25682862
+2009-11-24 20:50:53,226 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/todd/output-opencellid/_temporary/_attempt_200911241912_0002_r_000000_0/part-00000 is closed by DFSClient_attempt_200911241912_0002_r_000000_0
+2009-11-24 20:50:53,226 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 4 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 2 SyncTimes(ms): 13870 
+2009-11-24 20:50:56,268 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid/_temporary/_attempt_200911241912_0002_r_000000_0	dst=null	perm=null
+2009-11-24 20:50:56,271 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=mkdirs	src=/user/todd/output-opencellid	dst=null	perm=todd:supergroup:rwxr-xr-x
+2009-11-24 20:50:56,279 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=rename	src=/user/todd/output-opencellid/_temporary/_attempt_200911241912_0002_r_000000_0/part-00000	dst=/user/todd/output-opencellid/part-00000	perm=todd:supergroup:rw-r--r--
+2009-11-24 20:50:56,283 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/user/todd/output-opencellid/_temporary/_attempt_200911241912_0002_r_000000_0	dst=null	perm=null
+2009-11-24 20:51:00,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/user/todd/output-opencellid/_temporary	dst=null	perm=null
+2009-11-24 20:51:01,333 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-669079307513556834_1013 size 142589
+2009-11-24 20:51:01,338 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/todd/output-opencellid/_logs/history/localhost_1259118751342_job_200911241912_0002_todd_centroid is closed by DFSClient_-353214101
+2009-11-24 20:51:01,384 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-9128029415180854445 is added to invalidSet of 127.0.0.1:50010
+2009-11-24 20:51:01,384 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-9138103535003721680 is added to invalidSet of 127.0.0.1:50010
+2009-11-24 20:51:01,384 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3725186636122841571 is added to invalidSet of 127.0.0.1:50010
+2009-11-24 20:51:01,387 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=delete	src=/tmp/hadoop-todd/mapred/system/job_200911241912_0002	dst=null	perm=null
+2009-11-24 20:51:02,091 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_-9128029415180854445_1009 blk_-9138103535003721680_1010 blk_-3725186636122841571_1011
+2009-11-24 20:51:03,550 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-vpcells	dst=null	perm=null
+2009-11-24 20:58:19,207 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-vpcells	dst=null	perm=null
+2009-11-24 20:58:24,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 20:58:36,456 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 20:58:36,474 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:01:06,968 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:01:11,099 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:01:11,109 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:01:24,297 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:01:24,316 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:01:36,364 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:01:36,384 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:02:03,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:02:03,833 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:14:26,587 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:14:26,606 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:14:45,898 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:14:45,917 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:14:54,832 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:14:54,852 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:15:28,687 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:15:28,706 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:17:31,594 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:17:31,612 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:17:38,709 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:17:38,726 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:17:49,550 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:17:49,568 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:18:10,535 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:18:10,552 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:18:17,383 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=listStatus	src=/user/todd/output-opencellid	dst=null	perm=null
+2009-11-24 21:18:17,400 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=todd,engr,wm	ip=/127.0.0.1	cmd=open	src=/user/todd/output-opencellid/part-00000	dst=null	perm=null
+2009-11-24 21:20:45,577 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2009-11-24 21:20:45,578 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 9 Total time for transactions(ms): 2Number of transactions batched in Syncs: 1 Number of syncs: 8 SyncTimes(ms): 13913 
+2009-11-24 21:20:45,743 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2009-11-24 21:20:45,743 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 
+2009-11-24 22:20:45,963 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2009-11-24 22:20:45,963 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 22:20:46,034 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2009-11-24 22:20:46,034 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 2 
+2009-11-24 23:20:46,209 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2009-11-24 23:20:46,209 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 23:20:46,316 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2009-11-24 23:20:46,317 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 

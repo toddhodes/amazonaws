@@ -1,0 +1,185 @@
+2009-11-24 19:08:26,009 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = pan/192.168.0.112
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.1
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/common/tags/release-0.20.1-rc1 -r 810220; compiled by 'oom' on Tue Sep  1 20:55:56 UTC 2009
+************************************************************/
+2009-11-24 19:08:26,105 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2009-11-24 19:08:27,475 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 0 time(s).
+2009-11-24 19:08:28,479 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 1 time(s).
+2009-11-24 19:08:29,518 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 2 time(s).
+2009-11-24 19:08:30,523 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 3 time(s).
+2009-11-24 19:08:31,527 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 4 time(s).
+2009-11-24 19:08:32,531 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 5 time(s).
+2009-11-24 19:08:33,535 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 6 time(s).
+2009-11-24 19:08:34,539 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 7 time(s).
+2009-11-24 19:08:35,543 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 8 time(s).
+2009-11-24 19:08:36,547 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 9 time(s).
+2009-11-24 19:08:36,550 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:9000 not available yet, Zzzzz...
+2009-11-24 19:08:38,559 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 0 time(s).
+2009-11-24 19:08:39,563 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 1 time(s).
+2009-11-24 19:08:40,567 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 2 time(s).
+2009-11-24 19:08:41,571 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 3 time(s).
+2009-11-24 19:08:42,576 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 4 time(s).
+2009-11-24 19:08:43,580 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 5 time(s).
+2009-11-24 19:08:44,584 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 6 time(s).
+2009-11-24 19:08:45,588 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 7 time(s).
+2009-11-24 19:08:46,592 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 8 time(s).
+2009-11-24 19:08:47,596 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 9 time(s).
+2009-11-24 19:08:47,596 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:9000 not available yet, Zzzzz...
+2009-11-24 19:08:49,604 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 0 time(s).
+2009-11-24 19:08:50,608 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 1 time(s).
+2009-11-24 19:08:51,612 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 2 time(s).
+2009-11-24 19:08:52,616 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 3 time(s).
+2009-11-24 19:08:53,620 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 4 time(s).
+2009-11-24 19:08:54,624 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 5 time(s).
+2009-11-24 19:08:55,628 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 6 time(s).
+2009-11-24 19:08:56,632 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 7 time(s).
+2009-11-24 19:08:57,636 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 8 time(s).
+2009-11-24 19:08:58,640 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 9 time(s).
+2009-11-24 19:08:58,641 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:9000 not available yet, Zzzzz...
+2009-11-24 19:09:00,648 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 0 time(s).
+2009-11-24 19:09:01,652 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 1 time(s).
+2009-11-24 19:09:02,656 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 2 time(s).
+2009-11-24 19:09:03,660 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 3 time(s).
+2009-11-24 19:09:04,665 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 4 time(s).
+2009-11-24 19:09:05,669 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 5 time(s).
+2009-11-24 19:09:06,673 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 6 time(s).
+2009-11-24 19:09:07,677 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 7 time(s).
+2009-11-24 19:09:08,681 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 8 time(s).
+2009-11-24 19:09:09,685 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 9 time(s).
+2009-11-24 19:09:09,686 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:9000 not available yet, Zzzzz...
+2009-11-24 19:09:11,693 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 0 time(s).
+2009-11-24 19:09:12,697 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 1 time(s).
+2009-11-24 19:09:13,701 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 2 time(s).
+2009-11-24 19:09:14,705 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 3 time(s).
+2009-11-24 19:09:15,709 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 4 time(s).
+2009-11-24 19:09:16,713 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 5 time(s).
+2009-11-24 19:09:17,717 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 6 time(s).
+2009-11-24 19:09:18,721 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 7 time(s).
+2009-11-24 19:09:19,725 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 8 time(s).
+2009-11-24 19:09:20,729 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 9 time(s).
+2009-11-24 19:09:20,730 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:9000 not available yet, Zzzzz...
+2009-11-24 19:09:22,737 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 0 time(s).
+2009-11-24 19:09:23,741 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 1 time(s).
+2009-11-24 19:09:24,745 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 2 time(s).
+2009-11-24 19:09:25,750 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 3 time(s).
+2009-11-24 19:09:26,754 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 4 time(s).
+2009-11-24 19:09:27,758 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 5 time(s).
+2009-11-24 19:09:28,762 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 6 time(s).
+2009-11-24 19:09:29,766 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 7 time(s).
+2009-11-24 19:09:30,770 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 8 time(s).
+2009-11-24 19:09:31,774 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 9 time(s).
+2009-11-24 19:09:31,775 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:9000 not available yet, Zzzzz...
+2009-11-24 19:09:33,782 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 0 time(s).
+2009-11-24 19:09:34,099 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at pan/192.168.0.112
+************************************************************/
+2009-11-24 19:09:48,299 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = pan/192.168.0.112
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.1
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/common/tags/release-0.20.1-rc1 -r 810220; compiled by 'oom' on Tue Sep  1 20:55:56 UTC 2009
+************************************************************/
+2009-11-24 19:09:48,418 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2009-11-24 19:09:48,912 INFO org.apache.hadoop.hdfs.server.common.Storage: Recovering storage directory /tmp/hadoop-todd/dfs/namesecondary from failed checkpoint.
+2009-11-24 19:09:49,089 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2009-11-24 19:09:49,309 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50090
+2009-11-24 19:09:49,312 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50090 webServer.getConnectors()[0].getLocalPort() returned 50090
+2009-11-24 19:09:49,313 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50090
+2009-11-24 19:09:49,313 INFO org.mortbay.log: jetty-6.1.14
+2009-11-24 19:09:50,562 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+2009-11-24 19:09:50,563 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+2009-11-24 19:09:50,563 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+2009-11-24 19:09:50,563 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Log Size Trigger    :67108864 bytes (65536 KB)
+2009-11-24 19:11:48,130 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at pan/192.168.0.112
+************************************************************/
+2009-11-24 19:12:28,756 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = pan/192.168.0.112
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.1
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/common/tags/release-0.20.1-rc1 -r 810220; compiled by 'oom' on Tue Sep  1 20:55:56 UTC 2009
+************************************************************/
+2009-11-24 19:12:28,879 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2009-11-24 19:12:29,742 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2009-11-24 19:12:30,359 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50090
+2009-11-24 19:12:30,376 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50090 webServer.getConnectors()[0].getLocalPort() returned 50090
+2009-11-24 19:12:30,376 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50090
+2009-11-24 19:12:30,376 INFO org.mortbay.log: jetty-6.1.14
+2009-11-24 19:12:44,746 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+2009-11-24 19:12:44,748 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+2009-11-24 19:12:44,748 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+2009-11-24 19:12:44,748 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Log Size Trigger    :67108864 bytes (65536 KB)
+2009-11-24 19:17:45,161 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 94 bytes.
+2009-11-24 19:17:45,164 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 2741 bytes.
+2009-11-24 19:17:45,245 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-11-24 19:17:45,245 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-11-24 19:17:45,245 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-11-24 19:17:45,265 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2009-11-24 19:17:45,266 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-11-24 19:17:45,280 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 2741 edits # 16 loaded in 0 seconds.
+2009-11-24 19:17:45,295 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 2571 saved in 0 seconds.
+2009-11-24 19:17:45,304 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 19:17:45,389 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1259119064000:1259118746001
+2009-11-24 19:17:45,545 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 2571
+2009-11-24 20:17:45,744 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 20:20:42,813 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 2571 bytes.
+2009-11-24 20:20:42,909 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 5613 bytes.
+2009-11-24 20:20:43,437 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-11-24 20:20:43,438 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-11-24 20:20:43,438 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-11-24 20:20:43,442 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 11
+2009-11-24 20:20:43,447 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-11-24 20:20:43,534 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 5613 edits # 58 loaded in 0 seconds.
+2009-11-24 20:20:44,778 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 4638 saved in 0 seconds.
+2009-11-24 20:20:45,017 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 20:20:45,257 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1259122837000:1259119065531
+2009-11-24 20:20:45,402 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 4638
+2009-11-24 21:20:45,562 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 21:20:45,641 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 4638 bytes.
+2009-11-24 21:20:45,643 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 1119 bytes.
+2009-11-24 21:20:45,653 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-11-24 21:20:45,653 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-11-24 21:20:45,653 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-11-24 21:20:45,656 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 26
+2009-11-24 21:20:45,664 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 1
+2009-11-24 21:20:45,670 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 1119 edits # 9 loaded in 0 seconds.
+2009-11-24 21:20:45,682 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-11-24 21:20:45,689 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 21:20:45,704 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1259126445000:1259122845386
+2009-11-24 21:20:45,818 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-11-24 22:20:45,955 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 22:20:45,975 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-11-24 22:20:45,977 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-11-24 22:20:45,995 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-11-24 22:20:45,995 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-11-24 22:20:45,995 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-11-24 22:20:45,997 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-11-24 22:20:46,003 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-11-24 22:20:46,003 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-11-24 22:20:46,012 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-11-24 22:20:46,020 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 22:20:46,028 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1259130045000:1259126445755
+2009-11-24 22:20:46,070 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967
+2009-11-24 23:20:46,201 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 23:20:46,223 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 3967 bytes.
+2009-11-24 23:20:46,225 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2009-11-24 23:20:46,242 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=todd,engr,wm
+2009-11-24 23:20:46,242 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2009-11-24 23:20:46,242 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2009-11-24 23:20:46,245 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 22
+2009-11-24 23:20:46,251 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2009-11-24 23:20:46,251 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-todd/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2009-11-24 23:20:46,286 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 3967 saved in 0 seconds.
+2009-11-24 23:20:46,294 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2009-11-24 23:20:46,306 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=192.168.0.112&token=-18:200084805:0:1259133646000:1259130046039
+2009-11-24 23:20:46,333 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 3967

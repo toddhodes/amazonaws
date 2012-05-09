@@ -1,0 +1,8 @@
+
+export JAVA_HOME=/usr/lib/jvm/java-6-sun/
+
+export HADOOP_HOME=/ext/home/todd/src/hadoop-0.20.1/
+export HADOOP_BIN=/ext/home/todd/src/hadoop-0.20.1//bin
+
+
+

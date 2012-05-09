@@ -1,0 +1,440 @@
+2009-11-24 19:21:03,330 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SHUFFLE, sessionId=
+2009-11-24 19:21:03,855 INFO org.apache.hadoop.mapred.ReduceTask: ShuffleRamManager: MemoryLimit=141387360, MaxSingleShuffleLimit=35346840
+2009-11-24 19:21:03,884 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread started: Thread for merging on-disk files
+2009-11-24 19:21:03,884 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:21:03,886 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread started: Thread for merging in memory files
+2009-11-24 19:21:03,888 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread started: Thread for polling Map Completion Events
+2009-11-24 19:21:03,888 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 67 map output(s) where 0 is already in progress
+2009-11-24 19:21:04,005 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:21:04,008 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 4 new map-outputs
+2009-11-24 19:21:09,038 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:21:09,713 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000000_0, compressed len: 79157590, decompressed len: 79157586
+2009-11-24 19:21:09,713 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 79157586 bytes (79157590 raw bytes) into Local-FS from attempt_200911241912_0001_m_000000_0
+2009-11-24 19:21:13,635 INFO org.apache.hadoop.mapred.ReduceTask: Read 79157590 bytes from map-output for attempt_200911241912_0001_m_000000_0
+2009-11-24 19:21:13,651 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:21:13,652 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:21:13,787 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000001_0, compressed len: 82621168, decompressed len: 82621164
+2009-11-24 19:21:13,787 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82621164 bytes (82621168 raw bytes) into Local-FS from attempt_200911241912_0001_m_000001_0
+2009-11-24 19:21:17,773 INFO org.apache.hadoop.mapred.ReduceTask: Read 82621168 bytes from map-output for attempt_200911241912_0001_m_000001_0
+2009-11-24 19:21:17,910 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:21:18,338 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:21:18,447 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000003_0, compressed len: 82793674, decompressed len: 82793670
+2009-11-24 19:21:18,447 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82793670 bytes (82793674 raw bytes) into Local-FS from attempt_200911241912_0001_m_000003_0
+2009-11-24 19:21:22,278 INFO org.apache.hadoop.mapred.ReduceTask: Read 82793674 bytes from map-output for attempt_200911241912_0001_m_000003_0
+2009-11-24 19:21:22,282 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:21:22,287 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:21:22,361 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000002_0, compressed len: 83544590, decompressed len: 83544586
+2009-11-24 19:21:22,368 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83544586 bytes (83544590 raw bytes) into Local-FS from attempt_200911241912_0001_m_000002_0
+2009-11-24 19:21:27,436 INFO org.apache.hadoop.mapred.ReduceTask: Read 83544590 bytes from map-output for attempt_200911241912_0001_m_000002_0
+2009-11-24 19:21:27,710 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:21:42,662 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:21:45,703 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:21:47,604 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:21:47,674 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000005_0, compressed len: 82846764, decompressed len: 82846760
+2009-11-24 19:21:47,675 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82846760 bytes (82846764 raw bytes) into Local-FS from attempt_200911241912_0001_m_000005_0
+2009-11-24 19:21:51,079 INFO org.apache.hadoop.mapred.ReduceTask: Read 82846764 bytes from map-output for attempt_200911241912_0001_m_000005_0
+2009-11-24 19:21:51,083 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:21:51,083 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:21:51,109 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000004_0, compressed len: 82984986, decompressed len: 82984982
+2009-11-24 19:21:51,109 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82984982 bytes (82984986 raw bytes) into Local-FS from attempt_200911241912_0001_m_000004_0
+2009-11-24 19:21:53,682 INFO org.apache.hadoop.mapred.ReduceTask: Read 82984986 bytes from map-output for attempt_200911241912_0001_m_000004_0
+2009-11-24 19:21:53,685 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:22:08,701 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 61 map output(s) where 0 is already in progress
+2009-11-24 19:22:08,701 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:22:13,044 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:22:13,709 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:22:13,726 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000006_0, compressed len: 82201954, decompressed len: 82201950
+2009-11-24 19:22:13,726 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82201950 bytes (82201954 raw bytes) into Local-FS from attempt_200911241912_0001_m_000006_0
+2009-11-24 19:22:16,301 INFO org.apache.hadoop.mapred.ReduceTask: Read 82201954 bytes from map-output for attempt_200911241912_0001_m_000006_0
+2009-11-24 19:22:16,303 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:22:19,098 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:22:21,309 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:22:21,423 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000007_0, compressed len: 82159606, decompressed len: 82159602
+2009-11-24 19:22:21,424 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82159602 bytes (82159606 raw bytes) into Local-FS from attempt_200911241912_0001_m_000007_0
+2009-11-24 19:22:24,645 INFO org.apache.hadoop.mapred.ReduceTask: Read 82159606 bytes from map-output for attempt_200911241912_0001_m_000007_0
+2009-11-24 19:22:24,649 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:22:43,325 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:22:44,666 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:22:45,784 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000008_0, compressed len: 83103911, decompressed len: 83103907
+2009-11-24 19:22:45,784 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83103907 bytes (83103911 raw bytes) into Local-FS from attempt_200911241912_0001_m_000008_0
+2009-11-24 19:22:48,176 INFO org.apache.hadoop.mapred.ReduceTask: Read 83103911 bytes from map-output for attempt_200911241912_0001_m_000008_0
+2009-11-24 19:22:48,178 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:22:56,013 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:22:58,186 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:22:58,196 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000009_0, compressed len: 82949122, decompressed len: 82949118
+2009-11-24 19:22:58,196 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82949118 bytes (82949122 raw bytes) into Local-FS from attempt_200911241912_0001_m_000009_0
+2009-11-24 19:23:01,030 INFO org.apache.hadoop.mapred.ReduceTask: Read 82949122 bytes from map-output for attempt_200911241912_0001_m_000009_0
+2009-11-24 19:23:01,062 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:23:11,043 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 57 map output(s) where 0 is already in progress
+2009-11-24 19:23:11,043 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:23:17,182 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:23:21,051 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:23:21,063 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000010_0, compressed len: 83038673, decompressed len: 83038669
+2009-11-24 19:23:21,064 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83038669 bytes (83038673 raw bytes) into Local-FS from attempt_200911241912_0001_m_000010_0
+2009-11-24 19:23:23,655 INFO org.apache.hadoop.mapred.ReduceTask: Read 83038673 bytes from map-output for attempt_200911241912_0001_m_000010_0
+2009-11-24 19:23:23,657 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:23:29,303 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:23:33,668 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:23:33,701 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000011_0, compressed len: 83471750, decompressed len: 83471746
+2009-11-24 19:23:33,701 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83471746 bytes (83471750 raw bytes) into Local-FS from attempt_200911241912_0001_m_000011_0
+2009-11-24 19:23:35,904 INFO org.apache.hadoop.mapred.ReduceTask: Read 83471750 bytes from map-output for attempt_200911241912_0001_m_000011_0
+2009-11-24 19:23:35,907 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:23:44,460 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:23:45,917 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:23:45,980 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000012_0, compressed len: 83749097, decompressed len: 83749093
+2009-11-24 19:23:45,981 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83749093 bytes (83749097 raw bytes) into Local-FS from attempt_200911241912_0001_m_000012_0
+2009-11-24 19:23:49,232 INFO org.apache.hadoop.mapred.ReduceTask: Read 83749097 bytes from map-output for attempt_200911241912_0001_m_000012_0
+2009-11-24 19:23:49,234 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:23:59,572 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:24:04,245 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:24:04,294 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000013_0, compressed len: 82704217, decompressed len: 82704213
+2009-11-24 19:24:04,294 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82704213 bytes (82704217 raw bytes) into Local-FS from attempt_200911241912_0001_m_000013_0
+2009-11-24 19:24:06,915 INFO org.apache.hadoop.mapred.ReduceTask: Read 82704217 bytes from map-output for attempt_200911241912_0001_m_000013_0
+2009-11-24 19:24:06,918 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:24:11,922 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 53 map output(s) where 0 is already in progress
+2009-11-24 19:24:11,924 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:24:14,657 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:24:16,930 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:24:16,953 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000014_0, compressed len: 81960325, decompressed len: 81960321
+2009-11-24 19:24:16,953 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81960321 bytes (81960325 raw bytes) into Local-FS from attempt_200911241912_0001_m_000014_0
+2009-11-24 19:24:23,113 INFO org.apache.hadoop.mapred.ReduceTask: Read 81960325 bytes from map-output for attempt_200911241912_0001_m_000014_0
+2009-11-24 19:24:23,116 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:24:32,777 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:24:33,123 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:24:33,141 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000015_0, compressed len: 83607766, decompressed len: 83607762
+2009-11-24 19:24:33,142 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83607762 bytes (83607766 raw bytes) into Local-FS from attempt_200911241912_0001_m_000015_0
+2009-11-24 19:24:37,081 INFO org.apache.hadoop.mapred.ReduceTask: Read 83607766 bytes from map-output for attempt_200911241912_0001_m_000015_0
+2009-11-24 19:24:37,084 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:24:51,868 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:24:52,100 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:24:52,145 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000016_0, compressed len: 83999272, decompressed len: 83999268
+2009-11-24 19:24:52,145 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83999268 bytes (83999272 raw bytes) into Local-FS from attempt_200911241912_0001_m_000016_0
+2009-11-24 19:24:55,608 INFO org.apache.hadoop.mapred.ReduceTask: Read 83999272 bytes from map-output for attempt_200911241912_0001_m_000016_0
+2009-11-24 19:24:55,611 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:25:04,001 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:25:05,620 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:25:05,705 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000017_0, compressed len: 82841870, decompressed len: 82841866
+2009-11-24 19:25:05,705 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82841866 bytes (82841870 raw bytes) into Local-FS from attempt_200911241912_0001_m_000017_0
+2009-11-24 19:25:09,657 INFO org.apache.hadoop.mapred.ReduceTask: Read 82841870 bytes from map-output for attempt_200911241912_0001_m_000017_0
+2009-11-24 19:25:09,658 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:25:14,665 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 49 map output(s) where 0 is already in progress
+2009-11-24 19:25:14,665 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:25:25,217 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:25:29,682 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:25:29,715 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000018_0, compressed len: 83724647, decompressed len: 83724643
+2009-11-24 19:25:29,715 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83724643 bytes (83724647 raw bytes) into Local-FS from attempt_200911241912_0001_m_000018_0
+2009-11-24 19:25:32,477 INFO org.apache.hadoop.mapred.ReduceTask: Read 83724647 bytes from map-output for attempt_200911241912_0001_m_000018_0
+2009-11-24 19:25:32,480 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0We have  19 map outputs on disk. Triggering merge of 10 files
+2009-11-24 19:25:32,521 INFO org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2009-11-24 19:25:32,733 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 822236250 bytes
+2009-11-24 19:25:40,362 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:25:42,522 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:25:42,535 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000019_0, compressed len: 82536087, decompressed len: 82536083
+2009-11-24 19:25:42,535 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82536083 bytes (82536087 raw bytes) into Local-FS from attempt_200911241912_0001_m_000019_0
+2009-11-24 19:25:46,634 INFO org.apache.hadoop.mapred.ReduceTask: Read 82536087 bytes from map-output for attempt_200911241912_0001_m_000019_0
+2009-11-24 19:25:58,601 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:26:01,651 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:26:01,670 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000020_0, compressed len: 83422858, decompressed len: 83422854
+2009-11-24 19:26:01,670 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83422854 bytes (83422858 raw bytes) into Local-FS from attempt_200911241912_0001_m_000020_0
+2009-11-24 19:26:05,089 INFO org.apache.hadoop.mapred.ReduceTask: Read 83422858 bytes from map-output for attempt_200911241912_0001_m_000020_0
+2009-11-24 19:26:15,103 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 46 map output(s) where 0 is already in progress
+2009-11-24 19:26:15,104 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:26:25,903 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:26:28,927 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:26:30,116 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:26:30,172 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000021_0, compressed len: 82420546, decompressed len: 82420542
+2009-11-24 19:26:30,172 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82420542 bytes (82420546 raw bytes) into Local-FS from attempt_200911241912_0001_m_000021_0
+2009-11-24 19:26:33,891 INFO org.apache.hadoop.mapred.ReduceTask: Read 82420546 bytes from map-output for attempt_200911241912_0001_m_000021_0
+2009-11-24 19:26:33,896 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:26:33,957 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000022_0, compressed len: 82365669, decompressed len: 82365665
+2009-11-24 19:26:33,958 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82365665 bytes (82365669 raw bytes) into Local-FS from attempt_200911241912_0001_m_000022_0
+2009-11-24 19:26:39,603 INFO org.apache.hadoop.mapred.ReduceTask: Read 82365669 bytes from map-output for attempt_200911241912_0001_m_000022_0
+2009-11-24 19:27:08,809 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 2 new map-outputs
+2009-11-24 19:27:09,634 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:27:09,782 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000023_0, compressed len: 82020651, decompressed len: 82020647
+2009-11-24 19:27:09,782 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82020647 bytes (82020651 raw bytes) into Local-FS from attempt_200911241912_0001_m_000023_0
+2009-11-24 19:27:15,104 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 44 map output(s) where 1 is already in progress
+2009-11-24 19:27:15,104 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and1 dup hosts)
+2009-11-24 19:27:15,430 INFO org.apache.hadoop.mapred.ReduceTask: Read 82020651 bytes from map-output for attempt_200911241912_0001_m_000023_0
+2009-11-24 19:27:15,434 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:27:15,612 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000024_0, compressed len: 81401153, decompressed len: 81401149
+2009-11-24 19:27:15,612 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81401149 bytes (81401153 raw bytes) into Local-FS from attempt_200911241912_0001_m_000024_0
+2009-11-24 19:27:21,348 INFO org.apache.hadoop.mapred.ReduceTask: Read 81401153 bytes from map-output for attempt_200911241912_0001_m_000024_0
+2009-11-24 19:27:57,147 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:28:01,400 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:28:01,413 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000026_0, compressed len: 82127647, decompressed len: 82127643
+2009-11-24 19:28:01,413 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82127643 bytes (82127647 raw bytes) into Local-FS from attempt_200911241912_0001_m_000026_0
+2009-11-24 19:28:03,205 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:28:04,360 INFO org.apache.hadoop.mapred.ReduceTask: Read 82127647 bytes from map-output for attempt_200911241912_0001_m_000026_0
+2009-11-24 19:28:04,363 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:28:04,374 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000025_0, compressed len: 81417145, decompressed len: 81417141
+2009-11-24 19:28:04,374 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81417141 bytes (81417145 raw bytes) into Local-FS from attempt_200911241912_0001_m_000025_0
+2009-11-24 19:28:11,637 INFO org.apache.hadoop.mapred.ReduceTask: Read 81417145 bytes from map-output for attempt_200911241912_0001_m_000025_0
+2009-11-24 19:28:16,645 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 40 map output(s) where 0 is already in progress
+2009-11-24 19:28:16,645 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:28:32,317 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Finished merging 10 map output files on disk of total-size 828660022. Local output file is file:/tmp/hadoop-todd/mapred/local/taskTracker/jobcache/job_200911241912_0001/attempt_200911241912_0001_r_000000_0/output/map_0.out.merged of size 822236236
+2009-11-24 19:28:32,318 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2009-11-24 19:28:39,512 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:28:41,666 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:28:41,863 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000027_0, compressed len: 82146594, decompressed len: 82146590
+2009-11-24 19:28:41,864 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82146590 bytes (82146594 raw bytes) into Local-FS from attempt_200911241912_0001_m_000027_0
+2009-11-24 19:28:44,388 INFO org.apache.hadoop.mapred.ReduceTask: Read 82146594 bytes from map-output for attempt_200911241912_0001_m_000027_0
+2009-11-24 19:28:44,391 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0We have  19 map outputs on disk. Triggering merge of 10 files
+2009-11-24 19:28:44,400 INFO org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2009-11-24 19:28:44,506 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 822459111 bytes
+2009-11-24 19:28:45,897 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:28:49,399 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:28:49,426 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000028_0, compressed len: 81964735, decompressed len: 81964731
+2009-11-24 19:28:49,446 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81964731 bytes (81964735 raw bytes) into Local-FS from attempt_200911241912_0001_m_000028_0
+2009-11-24 19:29:00,362 INFO org.apache.hadoop.mapred.ReduceTask: Read 81964735 bytes from map-output for attempt_200911241912_0001_m_000028_0
+2009-11-24 19:29:20,432 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 38 map output(s) where 0 is already in progress
+2009-11-24 19:29:20,432 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:29:25,583 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:29:28,608 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:29:30,440 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:29:30,585 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000029_0, compressed len: 83660217, decompressed len: 83660213
+2009-11-24 19:29:30,585 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83660213 bytes (83660217 raw bytes) into Local-FS from attempt_200911241912_0001_m_000029_0
+2009-11-24 19:29:42,340 INFO org.apache.hadoop.mapred.ReduceTask: Read 83660217 bytes from map-output for attempt_200911241912_0001_m_000029_0
+2009-11-24 19:29:42,343 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:29:42,352 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000030_0, compressed len: 83756773, decompressed len: 83756769
+2009-11-24 19:29:42,353 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83756769 bytes (83756773 raw bytes) into Local-FS from attempt_200911241912_0001_m_000030_0
+2009-11-24 19:29:56,834 INFO org.apache.hadoop.mapred.ReduceTask: Read 83756773 bytes from map-output for attempt_200911241912_0001_m_000030_0
+2009-11-24 19:30:17,481 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:30:20,514 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:30:21,884 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 36 map output(s) where 0 is already in progress
+2009-11-24 19:30:21,884 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:30:22,180 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000031_0, compressed len: 83863435, decompressed len: 83863431
+2009-11-24 19:30:22,180 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83863431 bytes (83863435 raw bytes) into Local-FS from attempt_200911241912_0001_m_000031_0
+2009-11-24 19:30:30,281 INFO org.apache.hadoop.mapred.ReduceTask: Read 83863435 bytes from map-output for attempt_200911241912_0001_m_000031_0
+2009-11-24 19:30:30,286 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:30:30,293 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000032_0, compressed len: 82711190, decompressed len: 82711186
+2009-11-24 19:30:30,293 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82711186 bytes (82711190 raw bytes) into Local-FS from attempt_200911241912_0001_m_000032_0
+2009-11-24 19:30:43,430 INFO org.apache.hadoop.mapred.ReduceTask: Read 82711190 bytes from map-output for attempt_200911241912_0001_m_000032_0
+2009-11-24 19:31:06,615 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:31:08,457 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:31:08,472 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000033_0, compressed len: 82574038, decompressed len: 82574034
+2009-11-24 19:31:08,472 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82574034 bytes (82574038 raw bytes) into Local-FS from attempt_200911241912_0001_m_000033_0
+2009-11-24 19:31:09,664 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:31:12,528 INFO org.apache.hadoop.mapred.ReduceTask: Read 82574038 bytes from map-output for attempt_200911241912_0001_m_000033_0
+2009-11-24 19:31:12,531 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:31:12,541 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000034_0, compressed len: 83477241, decompressed len: 83477237
+2009-11-24 19:31:12,541 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83477237 bytes (83477241 raw bytes) into Local-FS from attempt_200911241912_0001_m_000034_0
+2009-11-24 19:31:21,884 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 33 map output(s) where 1 is already in progress
+2009-11-24 19:31:21,884 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:31:22,618 INFO org.apache.hadoop.mapred.ReduceTask: Read 83477241 bytes from map-output for attempt_200911241912_0001_m_000034_0
+2009-11-24 19:31:55,089 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:31:57,675 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:31:57,687 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000036_0, compressed len: 82037984, decompressed len: 82037980
+2009-11-24 19:31:57,687 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82037980 bytes (82037984 raw bytes) into Local-FS from attempt_200911241912_0001_m_000036_0
+2009-11-24 19:32:11,533 INFO org.apache.hadoop.mapred.ReduceTask: Read 82037984 bytes from map-output for attempt_200911241912_0001_m_000036_0
+2009-11-24 19:32:16,242 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:32:16,540 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:32:16,561 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000035_0, compressed len: 81755805, decompressed len: 81755801
+2009-11-24 19:32:16,561 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81755801 bytes (81755805 raw bytes) into Local-FS from attempt_200911241912_0001_m_000035_0
+2009-11-24 19:32:21,885 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 31 map output(s) where 1 is already in progress
+2009-11-24 19:32:21,885 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:32:31,539 INFO org.apache.hadoop.mapred.ReduceTask: Read 81755805 bytes from map-output for attempt_200911241912_0001_m_000035_0
+2009-11-24 19:32:38,948 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Finished merging 10 map output files on disk of total-size 828884623. Local output file is file:/tmp/hadoop-todd/mapred/local/taskTracker/jobcache/job_200911241912_0001/attempt_200911241912_0001_r_000000_0/output/map_24.out.merged of size 822459097
+2009-11-24 19:32:38,948 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0We have  19 map outputs on disk. Triggering merge of 10 files
+2009-11-24 19:32:38,983 INFO org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2009-11-24 19:32:39,064 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 828064062 bytes
+2009-11-24 19:32:58,477 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:33:01,493 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:33:01,566 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:33:01,609 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000037_0, compressed len: 81422785, decompressed len: 81422781
+2009-11-24 19:33:01,632 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81422781 bytes (81422785 raw bytes) into Local-FS from attempt_200911241912_0001_m_000037_0
+2009-11-24 19:33:04,813 INFO org.apache.hadoop.mapred.ReduceTask: Read 81422785 bytes from map-output for attempt_200911241912_0001_m_000037_0
+2009-11-24 19:33:04,816 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:33:05,027 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000038_0, compressed len: 82262211, decompressed len: 82262207
+2009-11-24 19:33:05,028 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82262207 bytes (82262211 raw bytes) into Local-FS from attempt_200911241912_0001_m_000038_0
+2009-11-24 19:33:15,820 INFO org.apache.hadoop.mapred.ReduceTask: Read 82262211 bytes from map-output for attempt_200911241912_0001_m_000038_0
+2009-11-24 19:33:25,899 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 28 map output(s) where 0 is already in progress
+2009-11-24 19:33:25,899 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:34:02,108 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:34:05,135 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:34:05,937 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:34:05,995 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000040_0, compressed len: 82964030, decompressed len: 82964026
+2009-11-24 19:34:05,995 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82964026 bytes (82964030 raw bytes) into Local-FS from attempt_200911241912_0001_m_000040_0
+2009-11-24 19:34:19,476 INFO org.apache.hadoop.mapred.ReduceTask: Read 82964030 bytes from map-output for attempt_200911241912_0001_m_000040_0
+2009-11-24 19:34:19,484 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:34:19,509 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000039_0, compressed len: 83011929, decompressed len: 83011925
+2009-11-24 19:34:19,509 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 83011925 bytes (83011929 raw bytes) into Local-FS from attempt_200911241912_0001_m_000039_0
+2009-11-24 19:34:25,900 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 27 map output(s) where 1 is already in progress
+2009-11-24 19:34:25,900 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:34:41,766 INFO org.apache.hadoop.mapred.ReduceTask: Read 83011929 bytes from map-output for attempt_200911241912_0001_m_000039_0
+2009-11-24 19:35:00,839 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:35:01,787 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:35:01,865 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000041_0, compressed len: 82644808, decompressed len: 82644804
+2009-11-24 19:35:01,875 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82644804 bytes (82644808 raw bytes) into Local-FS from attempt_200911241912_0001_m_000041_0
+2009-11-24 19:35:05,720 INFO org.apache.hadoop.mapred.ReduceTask: Read 82644808 bytes from map-output for attempt_200911241912_0001_m_000041_0
+2009-11-24 19:35:09,940 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:35:10,728 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:35:10,776 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000042_0, compressed len: 82073951, decompressed len: 82073947
+2009-11-24 19:35:10,777 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82073947 bytes (82073951 raw bytes) into Local-FS from attempt_200911241912_0001_m_000042_0
+2009-11-24 19:35:25,901 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 25 map output(s) where 1 is already in progress
+2009-11-24 19:35:25,901 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:35:25,985 INFO org.apache.hadoop.mapred.ReduceTask: Read 82073951 bytes from map-output for attempt_200911241912_0001_m_000042_0
+2009-11-24 19:36:01,198 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 2 new map-outputs
+2009-11-24 19:36:06,022 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:36:06,039 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000043_0, compressed len: 81500165, decompressed len: 81500161
+2009-11-24 19:36:06,039 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81500161 bytes (81500165 raw bytes) into Local-FS from attempt_200911241912_0001_m_000043_0
+2009-11-24 19:36:13,485 INFO org.apache.hadoop.mapred.ReduceTask: Read 81500165 bytes from map-output for attempt_200911241912_0001_m_000043_0
+2009-11-24 19:36:13,502 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000044_0, compressed len: 80682730, decompressed len: 80682726
+2009-11-24 19:36:13,503 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 80682726 bytes (80682730 raw bytes) into Local-FS from attempt_200911241912_0001_m_000044_0
+2009-11-24 19:36:13,508 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:36:21,556 INFO org.apache.hadoop.mapred.ReduceTask: Read 80682730 bytes from map-output for attempt_200911241912_0001_m_000044_0
+2009-11-24 19:36:26,563 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 22 map output(s) where 0 is already in progress
+2009-11-24 19:36:26,563 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:36:45,454 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:36:46,584 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:36:46,602 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000045_0, compressed len: 82373041, decompressed len: 82373037
+2009-11-24 19:36:46,602 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82373037 bytes (82373041 raw bytes) into Local-FS from attempt_200911241912_0001_m_000045_0
+2009-11-24 19:36:48,513 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:36:49,402 INFO org.apache.hadoop.mapred.ReduceTask: Read 82373041 bytes from map-output for attempt_200911241912_0001_m_000045_0
+2009-11-24 19:36:49,408 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:36:49,425 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000046_0, compressed len: 82023150, decompressed len: 82023146
+2009-11-24 19:36:49,429 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82023146 bytes (82023150 raw bytes) into Local-FS from attempt_200911241912_0001_m_000046_0
+2009-11-24 19:37:00,643 INFO org.apache.hadoop.mapred.ReduceTask: Read 82023150 bytes from map-output for attempt_200911241912_0001_m_000046_0
+2009-11-24 19:37:26,885 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Finished merging 10 map output files on disk of total-size 834533362. Local output file is file:/tmp/hadoop-todd/mapred/local/taskTracker/jobcache/job_200911241912_0001/attempt_200911241912_0001_r_000000_0/output/map_35.out.merged of size 828064048
+2009-11-24 19:37:26,885 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0We have  20 map outputs on disk. Triggering merge of 10 files
+2009-11-24 19:37:26,904 INFO org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2009-11-24 19:37:26,908 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 820958760 bytes
+2009-11-24 19:37:30,678 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 20 map output(s) where 0 is already in progress
+2009-11-24 19:37:30,878 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:37:40,110 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:37:40,887 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:37:40,902 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000047_0, compressed len: 81933508, decompressed len: 81933504
+2009-11-24 19:37:40,902 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81933504 bytes (81933508 raw bytes) into Local-FS from attempt_200911241912_0001_m_000047_0
+2009-11-24 19:37:43,159 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:37:49,800 INFO org.apache.hadoop.mapred.ReduceTask: Read 81933508 bytes from map-output for attempt_200911241912_0001_m_000047_0
+2009-11-24 19:37:50,645 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:37:50,663 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000048_0, compressed len: 82077088, decompressed len: 82077084
+2009-11-24 19:37:50,664 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82077084 bytes (82077088 raw bytes) into Local-FS from attempt_200911241912_0001_m_000048_0
+2009-11-24 19:38:04,150 INFO org.apache.hadoop.mapred.ReduceTask: Read 82077088 bytes from map-output for attempt_200911241912_0001_m_000048_0
+2009-11-24 19:38:34,177 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 18 map output(s) where 0 is already in progress
+2009-11-24 19:38:34,177 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:38:43,545 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:38:44,185 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:38:44,207 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000050_0, compressed len: 82191065, decompressed len: 82191061
+2009-11-24 19:38:44,208 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82191061 bytes (82191065 raw bytes) into Local-FS from attempt_200911241912_0001_m_000050_0
+2009-11-24 19:38:46,589 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:38:48,164 INFO org.apache.hadoop.mapred.ReduceTask: Read 82191065 bytes from map-output for attempt_200911241912_0001_m_000050_0
+2009-11-24 19:38:48,167 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:38:48,182 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000049_0, compressed len: 82653931, decompressed len: 82653927
+2009-11-24 19:38:48,182 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82653927 bytes (82653931 raw bytes) into Local-FS from attempt_200911241912_0001_m_000049_0
+2009-11-24 19:39:00,744 INFO org.apache.hadoop.mapred.ReduceTask: Read 82653931 bytes from map-output for attempt_200911241912_0001_m_000049_0
+2009-11-24 19:39:35,788 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 16 map output(s) where 0 is already in progress
+2009-11-24 19:39:35,788 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:39:41,434 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:39:45,796 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:39:45,808 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000052_0, compressed len: 81547066, decompressed len: 81547062
+2009-11-24 19:39:45,808 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81547062 bytes (81547066 raw bytes) into Local-FS from attempt_200911241912_0001_m_000052_0
+2009-11-24 19:39:50,515 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:39:56,537 INFO org.apache.hadoop.mapred.ReduceTask: Read 81547066 bytes from map-output for attempt_200911241912_0001_m_000052_0
+2009-11-24 19:39:56,540 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:39:56,573 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000051_0, compressed len: 82016886, decompressed len: 82016882
+2009-11-24 19:39:56,573 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82016882 bytes (82016886 raw bytes) into Local-FS from attempt_200911241912_0001_m_000051_0
+2009-11-24 19:40:19,310 INFO org.apache.hadoop.mapred.ReduceTask: Read 82016886 bytes from map-output for attempt_200911241912_0001_m_000051_0
+2009-11-24 19:40:39,330 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 14 map output(s) where 0 is already in progress
+2009-11-24 19:40:39,331 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:40:43,022 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 2 new map-outputs
+2009-11-24 19:40:44,336 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:40:44,372 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000053_0, compressed len: 81396083, decompressed len: 81396079
+2009-11-24 19:40:44,372 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81396079 bytes (81396083 raw bytes) into Local-FS from attempt_200911241912_0001_m_000053_0
+2009-11-24 19:40:56,939 INFO org.apache.hadoop.mapred.ReduceTask: Read 81396083 bytes from map-output for attempt_200911241912_0001_m_000053_0
+2009-11-24 19:40:56,942 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:40:56,955 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000054_0, compressed len: 81956108, decompressed len: 81956104
+2009-11-24 19:40:56,955 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81956104 bytes (81956108 raw bytes) into Local-FS from attempt_200911241912_0001_m_000054_0
+2009-11-24 19:41:07,170 INFO org.apache.hadoop.mapred.ReduceTask: Read 81956108 bytes from map-output for attempt_200911241912_0001_m_000054_0
+2009-11-24 19:41:23,836 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Finished merging 10 map output files on disk of total-size 827372552. Local output file is file:/tmp/hadoop-todd/mapred/local/taskTracker/jobcache/job_200911241912_0001/attempt_200911241912_0001_r_000000_0/output/map_44.out.merged of size 820958746
+2009-11-24 19:41:23,836 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0We have  19 map outputs on disk. Triggering merge of 10 files
+2009-11-24 19:41:23,867 INFO org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2009-11-24 19:41:24,066 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 823039678 bytes
+2009-11-24 19:41:42,257 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 12 map output(s) where 0 is already in progress
+2009-11-24 19:41:42,258 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:41:43,357 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 2 new map-outputs
+2009-11-24 19:41:47,262 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:41:47,274 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000055_0, compressed len: 81947507, decompressed len: 81947503
+2009-11-24 19:41:47,275 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81947503 bytes (81947507 raw bytes) into Local-FS from attempt_200911241912_0001_m_000055_0
+2009-11-24 19:42:00,838 INFO org.apache.hadoop.mapred.ReduceTask: Read 81947507 bytes from map-output for attempt_200911241912_0001_m_000055_0
+2009-11-24 19:42:00,855 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:42:00,865 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000056_0, compressed len: 81442540, decompressed len: 81442536
+2009-11-24 19:42:00,874 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 81442536 bytes (81442540 raw bytes) into Local-FS from attempt_200911241912_0001_m_000056_0
+2009-11-24 19:42:14,550 INFO org.apache.hadoop.mapred.ReduceTask: Read 81442540 bytes from map-output for attempt_200911241912_0001_m_000056_0
+2009-11-24 19:42:26,045 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:42:29,568 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:42:29,610 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000057_0, compressed len: 82226599, decompressed len: 82226595
+2009-11-24 19:42:29,610 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 82226595 bytes (82226599 raw bytes) into Local-FS from attempt_200911241912_0001_m_000057_0
+2009-11-24 19:42:41,475 INFO org.apache.hadoop.mapred.ReduceTask: Read 82226599 bytes from map-output for attempt_200911241912_0001_m_000057_0
+2009-11-24 19:42:44,506 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:42:46,484 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 9 map output(s) where 0 is already in progress
+2009-11-24 19:42:46,485 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:42:46,562 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000058_0, compressed len: 79548955, decompressed len: 79548951
+2009-11-24 19:42:46,562 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 79548951 bytes (79548955 raw bytes) into Local-FS from attempt_200911241912_0001_m_000058_0
+2009-11-24 19:43:02,195 INFO org.apache.hadoop.mapred.ReduceTask: Read 79548955 bytes from map-output for attempt_200911241912_0001_m_000058_0
+2009-11-24 19:43:20,905 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:43:22,214 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:43:22,239 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000059_0, compressed len: 78034064, decompressed len: 78034060
+2009-11-24 19:43:22,239 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 78034060 bytes (78034064 raw bytes) into Local-FS from attempt_200911241912_0001_m_000059_0
+2009-11-24 19:43:33,895 INFO org.apache.hadoop.mapred.ReduceTask: Read 78034064 bytes from map-output for attempt_200911241912_0001_m_000059_0
+2009-11-24 19:43:48,907 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 7 map output(s) where 0 is already in progress
+2009-11-24 19:43:48,907 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:43:51,102 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:43:53,911 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:43:53,925 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000060_0, compressed len: 77997513, decompressed len: 77997509
+2009-11-24 19:43:53,926 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 77997509 bytes (77997513 raw bytes) into Local-FS from attempt_200911241912_0001_m_000060_0
+2009-11-24 19:43:56,765 INFO org.apache.hadoop.mapred.ReduceTask: Read 77997513 bytes from map-output for attempt_200911241912_0001_m_000060_0
+2009-11-24 19:43:57,146 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:44:01,772 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:44:01,784 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000061_0, compressed len: 77717458, decompressed len: 77717454
+2009-11-24 19:44:01,784 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 77717454 bytes (77717458 raw bytes) into Local-FS from attempt_200911241912_0001_m_000061_0
+2009-11-24 19:44:09,632 INFO org.apache.hadoop.mapred.ReduceTask: Read 77717458 bytes from map-output for attempt_200911241912_0001_m_000061_0
+2009-11-24 19:44:45,434 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 2 new map-outputs
+2009-11-24 19:44:49,670 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 5 map output(s) where 0 is already in progress
+2009-11-24 19:44:49,670 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:44:49,827 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000062_0, compressed len: 77957414, decompressed len: 77957410
+2009-11-24 19:44:49,827 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 77957410 bytes (77957414 raw bytes) into Local-FS from attempt_200911241912_0001_m_000062_0
+2009-11-24 19:44:55,620 INFO org.apache.hadoop.mapred.ReduceTask: Read 77957414 bytes from map-output for attempt_200911241912_0001_m_000062_0
+2009-11-24 19:44:55,624 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:44:55,640 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000063_0, compressed len: 77744079, decompressed len: 77744075
+2009-11-24 19:44:55,642 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 77744075 bytes (77744079 raw bytes) into Local-FS from attempt_200911241912_0001_m_000063_0
+2009-11-24 19:45:05,350 INFO org.apache.hadoop.mapred.ReduceTask: Read 77744079 bytes from map-output for attempt_200911241912_0001_m_000063_0
+2009-11-24 19:45:30,771 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 2 new map-outputs
+2009-11-24 19:45:31,063 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Finished merging 10 map output files on disk of total-size 829469726. Local output file is file:/tmp/hadoop-todd/mapred/local/taskTracker/jobcache/job_200911241912_0001/attempt_200911241912_0001_r_000000_0/output/map_53.out.merged of size 823039664
+2009-11-24 19:45:31,063 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0We have  19 map outputs on disk. Triggering merge of 10 files
+2009-11-24 19:45:31,087 INFO org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2009-11-24 19:45:31,563 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 798340736 bytes
+2009-11-24 19:45:35,448 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:45:35,496 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000064_0, compressed len: 77238822, decompressed len: 77238818
+2009-11-24 19:45:35,496 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 77238818 bytes (77238822 raw bytes) into Local-FS from attempt_200911241912_0001_m_000064_0
+2009-11-24 19:45:37,944 INFO org.apache.hadoop.mapred.ReduceTask: Read 77238822 bytes from map-output for attempt_200911241912_0001_m_000064_0
+2009-11-24 19:45:37,947 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:45:37,956 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000065_0, compressed len: 77497113, decompressed len: 77497109
+2009-11-24 19:45:37,956 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 77497109 bytes (77497113 raw bytes) into Local-FS from attempt_200911241912_0001_m_000065_0
+2009-11-24 19:45:49,671 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Need another 2 map output(s) where 1 is already in progress
+2009-11-24 19:45:49,671 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:45:52,003 INFO org.apache.hadoop.mapred.ReduceTask: Read 77497113 bytes from map-output for attempt_200911241912_0001_m_000065_0
+2009-11-24 19:46:07,167 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0: Got 1 new map-outputs
+2009-11-24 19:46:12,126 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2009-11-24 19:46:12,137 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_200911241912_0001_m_000066_0, compressed len: 62862873, decompressed len: 62862869
+2009-11-24 19:46:12,137 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 62862869 bytes (62862873 raw bytes) into Local-FS from attempt_200911241912_0001_m_000066_0
+2009-11-24 19:46:20,404 INFO org.apache.hadoop.mapred.ReduceTask: Read 62862873 bytes from map-output for attempt_200911241912_0001_m_000066_0
+2009-11-24 19:46:21,270 INFO org.apache.hadoop.mapred.ReduceTask: GetMapEventsThread exiting
+2009-11-24 19:46:21,270 INFO org.apache.hadoop.mapred.ReduceTask: getMapsEventsThread joined.
+2009-11-24 19:46:21,272 INFO org.apache.hadoop.mapred.ReduceTask: Closed ram manager
+2009-11-24 19:47:05,997 INFO org.apache.hadoop.mapred.ReduceTask: attempt_200911241912_0001_r_000000_0 Finished merging 10 map output files on disk of total-size 804577824. Local output file is file:/tmp/hadoop-todd/mapred/local/taskTracker/jobcache/job_200911241912_0001/attempt_200911241912_0001_r_000000_0/output/map_61.out.merged of size 798340722
+2009-11-24 19:47:05,998 INFO org.apache.hadoop.mapred.ReduceTask: Interleaved on-disk merge complete: 13 files left.
+2009-11-24 19:47:05,998 INFO org.apache.hadoop.mapred.ReduceTask: In-memory merge complete: 0 files left.
+2009-11-24 19:47:06,006 INFO org.apache.hadoop.mapred.ReduceTask: Merging 13 files, 5468065898 bytes from disk
+2009-11-24 19:47:06,008 INFO org.apache.hadoop.mapred.ReduceTask: Merging 0 segments, 0 bytes from memory into reduce
+2009-11-24 19:47:06,008 INFO org.apache.hadoop.mapred.Merger: Merging 13 sorted segments
+2009-11-24 19:47:06,091 INFO org.apache.hadoop.mapred.Merger: Merging 4 intermediate segments out of a total of 13
+2009-11-24 19:47:21,706 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 5468065840 bytes
+2009-11-24 19:47:38,083 WARN org.apache.hadoop.mapred.TaskTracker: Error running child
+java.lang.NullPointerException
+	at com.wavemarket.hadoop.CellDB$Reduce.reduce(CellDB.java:106)
+	at com.wavemarket.hadoop.CellDB$Reduce.reduce(CellDB.java:41)
+	at org.apache.hadoop.mapred.ReduceTask.runOldReducer(ReduceTask.java:463)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:411)
+	at org.apache.hadoop.mapred.Child.main(Child.java:170)
+2009-11-24 19:47:38,185 INFO org.apache.hadoop.mapred.TaskRunner: Runnning cleanup for the task
