@@ -1,0 +1,4 @@
+
+samples: x_1 .. x_N
+
+std dev = sqrt( 1/N-1 * SUM_1..N (x_i - x_mean)^2 
